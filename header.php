@@ -8,6 +8,9 @@
       <li class="nav-item">
         <a class="nav-link" data-widget="pushmenu" href="#"><i class="fas fa-bars"></i></a>
       </li>      
+      <li class="nav-item">
+        DOCUMENTAÇÃO
+      </li> 
     </ul>
 
     <!-- Right navbar links -->
