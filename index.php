@@ -45,6 +45,10 @@ include 'menu.php';
        
        <!-- CONTEÚDO PRINCIPAL -->
 
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/tMWkeBIohBs" frameborder="0" allowfullscreen=""></iframe>
+        </div>
+
         <div class="col-md-12">
           <div class="box box-solid">
             <div class="box-header with-border">
