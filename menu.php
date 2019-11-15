@@ -15,7 +15,7 @@
                with font-awesome or any other icon font library -->
           <li class="nav-item has-treeview menu-open">
             <a href="#" class="nav-link active">
-              <i class="nav-icon server"></i>
+              <i class="nav-icon fas fa-server-alt"></i>
               <p>
                 A API
                 <i class="right fas fa-angle-left"></i>
