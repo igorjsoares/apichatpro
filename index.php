@@ -44,7 +44,9 @@ include 'menu.php';
       <div class="container-fluid">
        
        <!-- CONTEÚDO PRINCIPAL -->
-        <div class="box box-solid">
+
+        <div class="col-md-6">
+          <div class="box box-solid">
             <div class="box-header with-border">
               <i class="fa fa-text-width"></i>
 
@@ -52,7 +54,6 @@ include 'menu.php';
             </div>
             <!-- /.box-header -->
             <div class="box-body">
-            <p>Para entender o que é o ChatPro, primeiramente precisamos entender o que é uma API.</p>
               <blockquote>
                 <p>Para entender o que é o ChatPro, primeiramente precisamos entender o que é uma API.</p>
                 <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
@@ -60,8 +61,8 @@ include 'menu.php';
             </div>
             <!-- /.box-body -->
           </div>
-
-
+          <!-- /.box -->
+        </div>
 
       </div><!-- /.container-fluid -->
     </section>
