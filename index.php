@@ -10,11 +10,11 @@
   <!-- Ionicons -->
   <link rel="stylesheet" href="node_modules/Ionicons/css/ionicons.min.css">
   <!-- Theme style -->
-  <link rel="stylesheet" href="dist/css/AdminLTE.min.css">
+  <link rel="stylesheet" href="node_modules/admin-lte/dist/css/AdminLTE.min.css">
   <!-- AdminLTE Skins. A skin azul para este iniciante
          página. No entanto, você pode escolher qualquer outra skin. Assegure-se de que você
          aplique a classe skin à tag body para que as alterações entrem em vigor. -->
-  <link rel="stylesheet" href="dist/css/skins/skin-blue.min.css">
+  <link rel="stylesheet" href="node_modules/admin-lte/dist/css/skins/skin-blue.min.css">
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
