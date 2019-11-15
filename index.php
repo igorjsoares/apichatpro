@@ -9,14 +9,14 @@
 include 'head.php';
 ?>
 
-<body class="hold-transition sidebar-mini layout-fixed skin-black-light">
+<body class="hold-transition sidebar-mini layout-fixed">
 
 <?php
 include 'header.php';
 ?>
 
   <!-- Main Sidebar Container -->
-  <aside class="main-sidebar sidebar-dark-primary elevation-4">
+  <aside class="main-sidebar sidebar-light-warning elevation-4">
     <!-- Brand Logo -->
     <a href="index3.html" class="brand-link">
       <img src="dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
