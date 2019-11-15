@@ -26,12 +26,12 @@ include 'menu.php';
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0 text-dark">Dashboard</h1>
+            <h1 class="m-0 text-dark">O que é a API ChatPro?</h1>
           </div><!-- /.col -->
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
-              <li class="breadcrumb-item"><a href="#">Home</a></li>
-              <li class="breadcrumb-item active">Dashboard v1</li>
+              <li class="breadcrumb-item"><a href="index.php">Home</a></li>
+              <li class="breadcrumb-item active">O que é?</li>
             </ol>
           </div><!-- /.col -->
         </div><!-- /.row -->
@@ -44,6 +44,11 @@ include 'menu.php';
       <div class="container-fluid">
        
        <!-- CONTEÚDO PRINCIPAL -->
+
+        <p>
+            Para entender o que é o ChatPro, primeiramente precisamos entender o que é uma API.
+        </p>
+
 
       </div><!-- /.container-fluid -->
     </section>
