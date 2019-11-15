@@ -16,7 +16,7 @@
     <!-- Right navbar links -->
     <ul class="navbar-nav ml-auto">
      <li>
-        <a type="button" href="https://api.chatpro.com.br/painel" class="btn btn-warning">Acessar o PAINEL</a>
+        <button type="button" href="https://api.chatpro.com.br/painel" class="btn btn-warning">Acessar o PAINEL</button>
      </li>
     </ul>
   </nav>
