@@ -3,7 +3,7 @@
     <!-- Brand Logo -->
     <a href="https://api.chatpro.com.br" class="brand-link">
       <img src="dist/img/api/logo.png" alt="API ChatPro" class="brand-image">
-      <span class="brand-text font-weight-light">CP</span>
+      <span style="color: white;" class="brand-text font-weight-light">CP</span>
     </a>
 
     <!-- Sidebar -->
