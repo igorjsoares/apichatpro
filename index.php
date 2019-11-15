@@ -13,6 +13,8 @@ include 'head.php';
 
 <?php
 include 'header.php';
+
+include 'menu.php';
 ?>
 
  
