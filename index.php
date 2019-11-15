@@ -45,7 +45,7 @@ include 'menu.php';
        
        <!-- CONTEÚDO PRINCIPAL -->
 
-        <div class="embed-responsive embed-responsive-16by9">
+        <div class="">
             <iframe class="embed-responsive-item" src="https://isempreendimentos.site/apitutorials/videos/API_Apresentacao_ExportWS.mp4" frameborder="0" allowfullscreen=""></iframe>
         </div>
 
