@@ -52,9 +52,9 @@ include 'menu.php';
             </div>
             <!-- /.box-header -->
             <div class="box-body">
+                <p>Para entender o que é a API ChatPro, primeiramente precisamos entender o que é uma API.</p>
               <blockquote>
-                <p>Para entender o que é o ChatPro, primeiramente precisamos entender o que é uma API.</p>
-                <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
+                <p>API é um conjunto de rotinas e padrões ara acesso de dados de um aplicativo ou plataforma, é utilizada para comunicação entre sistemas, aplicativos ou plataformas. </p>
               </blockquote>
             </div>
             <!-- /.box-body -->
