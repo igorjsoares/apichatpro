@@ -44,10 +44,23 @@ include 'menu.php';
       <div class="container-fluid">
        
        <!-- CONTEÚDO PRINCIPAL -->
+        <div class="box box-solid">
+            <div class="box-header with-border">
+              <i class="fa fa-text-width"></i>
 
-        <p>
-            Para entender o que é o ChatPro, primeiramente precisamos entender o que é uma API.
-        </p>
+              <h3 class="box-title">Block Quotes</h3>
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body">
+            <p>Para entender o que é o ChatPro, primeiramente precisamos entender o que é uma API.</p>
+              <blockquote>
+                <p>Para entender o que é o ChatPro, primeiramente precisamos entender o que é uma API.</p>
+                <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
+              </blockquote>
+            </div>
+            <!-- /.box-body -->
+          </div>
+
 
 
       </div><!-- /.container-fluid -->
