@@ -45,11 +45,9 @@ include 'menu.php';
        
        <!-- CONTEÚDO PRINCIPAL -->
 
-        <div class="col-md-6">
+        <div class="col-md-12">
           <div class="box box-solid">
             <div class="box-header with-border">
-              <i class="fa fa-text-width"></i>
-
               <h3 class="box-title">Block Quotes</h3>
             </div>
             <!-- /.box-header -->
