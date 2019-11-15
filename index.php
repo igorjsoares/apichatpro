@@ -46,7 +46,7 @@ include 'menu.php';
        <!-- CONTEÚDO PRINCIPAL -->
 
         <div class="">
-            <iframe class="embed-responsive-item" src="https://isempreendimentos.site/apitutorials/videos/API_Apresentacao_ExportWS.mp4" frameborder="0" allowfullscreen=""></iframe>
+            <iframe width="852" height="480" class="embed-responsive-item" src="https://isempreendimentos.site/apitutorials/videos/API_Apresentacao_ExportWS.mp4" frameborder="0" allowfullscreen=""></iframe>
         </div>
 
         <div class="col-md-12">
