@@ -2,7 +2,7 @@
   <aside class="main-sidebar sidebar-light-warning elevation-4">
     <!-- Brand Logo -->
     <a href="https://api.chatpro.com.br" class="brand-link">
-      <img src="dist/img/api/logo.png" alt="API ChatPro" class="brand-image elevation-3"
+      <img src="dist/img/api/logo.png" alt="API ChatPro" class="brand-image"
            style="opacity: .8">
       <span class="brand-text font-weight-light">AdminLTE 3</span>
     </a>
