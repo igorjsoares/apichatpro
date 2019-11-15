@@ -24,19 +24,19 @@
             <ul class="nav nav-treeview">
               <li class="nav-item">
                 <a href="./index.html" class="nav-link active">
-                  <i class="fas fa-star-of-life nav-icon"></i>
+                  <i class="fa fa-commenting-o nav-icon"></i>
                   <p>O que é?</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="./index2.html" class="nav-link">
-                  <i class="fal fa-list-alt nav-icon"></i>
+                  <i class="fa fa-check-square-o nav-icon"></i>
                   <p>O que precisa?</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="./index3.html" class="nav-link">
-                  <i class="far fa-play nav-icon"></i>
+                  <i class="fa fa-angle-right nav-icon"></i>
                   <p>Como começar?</p>
                 </a>
               </li>
