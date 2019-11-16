@@ -46,29 +46,35 @@ include 'menu.php';
        <!-- CONTEÚDO PRINCIPAL -->
         <div class="col-md-12">
           <div class="box box-solid">
-            <div class="box-header with-border">
-              <h3 class="box-title">O que é API?</h3>
-            </div>
             <!-- /.box-header -->
             <div class="box-body">
-                <p>Para entender o que é a API ChatPro, primeiramente precisamos entender o que é uma API.</p>
-              <blockquote>
-                <p>API é um conjunto de rotinas e padrões ara acesso de dados de um aplicativo ou plataforma, é utilizada para comunicação entre sistemas, aplicativos ou plataformas. </p>
-              </blockquote>
+            <div class="callout callout-success">
+                <h4>Testes grátis</h4>
 
-                <p>A API ChatPro é um conjunto de métodos que irá fazer com que o seu sistema, aplicativo ou plataforma ENVIE e RECEBA mensagens via Whatsapp.</p>
-
-                <p>Com a API ChatPro seu sistema poderá de maneira automática ou não, enviar mensagens para clientes informando por exemplo o detalhamento de uma compra, podendo lembrar o paciente de uma consulta marcada no seu sistema, podendo enviar para o WhatsApp mensagens de rastreamento de encomentas, controle de logística, automação residencial e industrial, rastreamento veicular, criação de atendimento automático, entre várias outras possibilidades que podem ser alcançadas.</p>
-
-                <p>Seu sistema também será capaz de receber as mensagens recebidas e fazer o que você quiser com elas, como por exemplo, você pode responder o cliente, dependendo da mensagem dele, pode salvar em banco de dados, pode alterar o status de uma transação... dentre várias possibilidades.</p>
-                <BR>
-                <div class="callout callout-info">
-                <h4>Infinitas possibilidades</h4>
-
-                <p>São muitas as possibilidades, invista na sua criatividade e deixe a comunicação com a gente.</p>
+                <p>Para que tenha total segurança na nossa ferramenta, disponibilizamos 15 dias e 100 créditos grátis para testes..</p>
               </div>
 
+                <p>Para testar siga os passos abaixo:</p>
+              
+                <ol>
+                    <li>acesse <a href="http://api.chatpro.com.br">api.chatpro.com.br</a></li>
+                    <li>Clique no botão <strong>Teste grátis</strong></li>
+                    <li>Preencher os dados corretamente, é importante colocar os dados corretamente, pois <strong> senha será enviada para WhatsApp do número informado </strong> e as notificações importantes para o e-mail informado.</li>
+                    <li>Ao receber a senha por WhatsApp clique no botão Login ou entre no endereço <a href="http://api.chatpro.com.br/painel">api.chatpro.com.br/painel</a></li>
+                    <li>Coloque seu e-mail e a senha recebida.</li>
+                </ol>
+                <br>
+                <p>Esse é o primeiro passo para começar a utilizar a API, nos próximos tópicos explicaremos cada parte do painel, mas se já quiser efetuar um teste, siga os passos abaixo:</p>
+                
+                <ol>
+                    <li>Abra no seu celular o aplicativo WhatsApp, em ajustes acesse WhatsApp web e leia o QRCode que está na tela do painel.</li>
+                    <li>Espere alguns segundos e seu painel aparecerá conectado (caso demore mais de 1 minuto, atualize a página).</li>
+                    <li>Com o status conectado, desça a barra de rolagem até o final, verá um campo de número é um campo de mensagem.</li>
+                    <li>Coloque um número com DDD (que não seja o número conectado), coloque uma mensagem e clique em <strong>Enviar mensagem</strong>.</li>
+                </ol>
 
+                <p>Note que a mensagem será enviada no seu aparelho e o painel te retornará uma resposta da requisição, entre outras coisas com os da mensagem e status.</p>
+                <p>Caso clique em <strong>Perfil</strong>, o painel irá executar o método /get_profile Que retorna para sua aplicação os dados do número inserido, inclusive a foto de  perfil (caso esses dados estejam disponíveis pro seu número)</p>
             </div>
             <!-- /.box-body -->
           </div>
