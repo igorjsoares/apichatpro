@@ -53,10 +53,10 @@ include 'menu.php';
                 <div><img src="dist/img/api/tela_painel_inf.png" width="90%" alt=""></div>
               <p>Cada instância é individual, tanto em infraestrutura quanto em credenciais de envio, ou seja só compartilham o mesmo pacote de créditos.</p>
               <p>Ao realizar uma recarga você terá 1 instância inclusa no seu painel, para instâncias adicionais, cada instância tem o custo mensal de R$ 50,00.</p>
-              <p>Para solicitar instâncias adicionais basta solicitar um link de pagamento ao suporte, informando a quantidade de instâncias adicionais necessita.</p>
-                <h2>SITUAÇÃO</H2>
+              <p>Para solicitar instâncias adicionais, basta solicitar um link de pagamento ao suporte, informando a quantidade de instâncias adicionais necessita.</p>
+                <h4>SITUAÇÃO</h4>
                 <p>Neste espaço aparecerá o status da conexão do servidor da instância com o WhatsApp.</p>
-                <div class="callout callout-warnig">
+                <div class="callout callout-danger">
                 <p>Importante lembrar que para que a API funcione, o WhatsApp deve estar sincronizado com sua instância, atraves do QRcode.</p>
             </div>
             <p><h7>O WhatsApp não permite mais de uma conexão externa simultânea, sendo assim, não é possível estar conectado na API e acessar o Web Whatsapp.</h7></p>
