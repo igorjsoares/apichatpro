@@ -48,33 +48,21 @@ include 'menu.php';
           <div class="box box-solid">
             <!-- /.box-header -->
             <div class="box-body">
-            <div class="callout callout-success">
-                <h4>Testes grátis</h4>
-
-                <p>Para que tenha total segurança na nossa ferramenta, disponibilizamos 15 dias e 100 créditos grátis para testes.</p>
-              </div>
-
-                <p>Para testar siga os passos abaixo:</p>
-              
-                <ol>
-                    <li>Acesse <a href="http://api.chatpro.com.br">api.chatpro.com.br</a></li>
-                    <li>Clique no botão <strong>Teste grátis</strong></li>
-                    <li>Preencher os dados corretamente, é importante colocar os dados corretamente, pois <strong> senha será enviada para WhatsApp do número informado </strong> e as notificações importantes para o e-mail informado.</li>
-                    <li>Ao receber a senha por WhatsApp, clique no botão <strong>Login</strong> ou entre no endereço <a href="http://api.chatpro.com.br/painel">api.chatpro.com.br/painel</a></li>
-                    <li>Coloque seu e-mail e a senha recebida.</li>
-                </ol>
-                <p>Esse é o primeiro passo para começar a utilizar a API, nos próximos tópicos explicaremos cada parte do painel, mas se já quiser efetuar um teste, siga os passos abaixo:</p>
-                
-                <ol>
-                    <li>Abra no seu celular o aplicativo WhatsApp, em ajustes acesse WhatsApp web e leia o QRCode que está na tela do painel.</li>
-                    <li>Espere alguns segundos e seu painel aparecerá conectado (caso demore mais de 1 minuto, atualize a página).</li>
-                    <li>Com o status conectado, desça a barra de rolagem até o final, verá um campo de número é um campo de mensagem.</li>
-                    <li>Coloque um número com DDD (que não seja o número conectado), coloque uma mensagem e clique em <strong>Enviar mensagem</strong>.</li>
-                </ol>
-
-                <p>Note que a mensagem será enviada no seu aparelho e o painel te retornará uma resposta da requisição, entre outras coisas, com ID da mensagem e status.</p>
-                <p>Caso clique em <strong>Perfil</strong>, o painel irá executar o método /get_profile Que retorna para sua aplicação os dados do número inserido, inclusive a foto de  perfil (caso esses dados estejam disponíveis pro seu número)</p>
+            
+                <p>Cada instância é a possibilidade de conexão de um número de WhatsApp. Caso o seu negócio necessite que tenha vários números compartilhando o mesmo pacote de créditos, é aqui que multiplicará os números.</p>
+              <p>Cada instância é individual, tanto em infraestrutura quanto em credenciais de envio, ou seja só compartilham o mesmo pacote de créditos.</p>
+              <p>Ao realizar uma recarga você terá 1 instância inclusa no seu painel, para instâncias adicionais, cada instância tem o custo mensal de R$ 50,00.</p>
+              <p>Para solicitar instâncias adicionais basta solicitar um link de pagamento ao suporte, informando a quantidade de instâncias adicionais necessita.</p>
+                <h2>SITUAÇÃO</H2>
+                <p>Neste espaço aparecerá o status da conexão do servidor da instância com o WhatsApp.</p>
+                <div class="callout callout-warnig">
+                <p>Importante lembrar que para que a API funcione, o WhatsApp deve estar sincronizado com sua instância, atraves do QRcode.</p>
             </div>
+            <p><h7>O WhatsApp não permite mais de uma conexão externa simultânea, sendo assim, não é possível estar conectado na API e acessar o Web Whatsapp.</h7></p>
+              <p>Sugerimos que antes de sincronizar o número ao QrCode, acesse os ajustes do Whatsapp no aparelho > Whatsapp web > Sair de todas as sessões. Assim poderá ter uma conexão unica com o servidor.</p>
+              <p>Para ler o QRCode acesse ajustes do seu aplicativo > Whatsapp Web > Escanear código QrCode (ou sinal de +).</p>
+              <p>Após sincronizar o whatsapp, lendo o QRcode, aguarde até o status da sua instância mudar para Conectado e ficar na cor verde (caso demore mais de 1 munitor, basta atualizar a pagina F5). No momento que sincroniza, o painel fez uma requisição (status) que trará as informações atuais da conexão, então, juntamente com a alteração de status, o painel traz na tela os dados do celular conectado como por exemplo bateria e rede. </p>
+              </div>
             <!-- /.box-body -->
           </div>
           <!-- /.box -->
