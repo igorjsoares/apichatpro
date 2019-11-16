@@ -60,8 +60,17 @@ include 'menu.php';
                 <li>50.000 créditos • R$2.000,00 (R$0,04 por crédito)</li>
             </ul>
             <div class="callout callout-success">
-                <h4>DICA</h4>
+                <h4>DICA 1</h4>
                 <p>Os créditos não possuem data de validade, ou seja, não precisa ficar preocupado em consumir em um determinado espaço de tempo.</p>
+            </div>
+            <div class="callout callout-success">
+                <h4>DICA 2</h4>
+                <p>Várias instâncias podem consumir o mesmo pacote de créditos, podendo assim adquirir um pacote com o preço/crédito mais em conta.</p>
+            </div>
+            <p>Para realizar uma recarga, basta acessar na tela inicial do Painel, <strong>Comprar créditos</strong>, escolher um pacote de créditos, inserir os dados do pagador e escolher se pagará em <strong>Boleto</strong> ou <strong>Cartão de crédito</strong>.</p>
+            <div class="callout callout-success">
+                <h4>DICA</h4>
+                <p>Com pagamento no Cartão de crédito os pacote é creditado instantaneamente, assim que o admnistradora do seu cartão autorizar a compra.</p>
             </div>
             </div>
             <!-- /.box-body -->
