@@ -62,6 +62,9 @@ include 'menu.php';
                 <div> 
                 <img width="100%" src="dist/img/api/tela_painel_inf.png" alt="">
                 </div>
+                <p>É neste espaço que estará todas as instâncias contratadas.</p>
+
+                <p>No painel é onde fará todo o controle de consumo, créditos e instâncias.</p>
             </div>
             <!-- /.box-body -->
           </div>

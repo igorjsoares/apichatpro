@@ -49,7 +49,7 @@ include 'menu.php';
             <!-- /.box-header -->
             <div class="box-body">
 
-            <p>A API trabalha com o modelo de pacotes de créditos pré pago, onde cada crédito representa uma mensagem enviada, ou seja, não cobramos por mensagens recebidas.</p>
+            <p>A API trabalha com o modelo de pacotes de créditos pré pago, onde <strong style="color: green;">cada crédito representa uma mensagem enviada</strong>, ou seja, não cobramos por mensagens recebidas.</p>
             <p>Quanto maior o pacote de créditos adquirido, menor o valor pago por crédito, podendo chegar a 4 centavos cada crédito, abaixo uma tabela com os valores:</p>
             <ul>
                 <li>2.500 créditos • R$325,00 (R$0,13 por crédito)</li>
