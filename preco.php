@@ -69,7 +69,6 @@ include 'menu.php';
             </div>
             <p>Para realizar uma recarga, basta acessar na tela inicial do Painel, <strong>Comprar créditos</strong>, escolher um pacote de créditos, inserir os dados do pagador e escolher se pagará em <strong>Boleto</strong> ou <strong>Cartão de crédito</strong>.</p>
             <div class="callout callout-success">
-                <h4>DICA</h4>
                 <p>Com pagamento no Cartão de crédito os pacote é creditado instantaneamente, assim que o admnistradora do seu cartão autorizar a compra.</p>
             </div>
             </div>
