@@ -68,8 +68,8 @@ include 'menu.php';
                 <p>Várias instâncias podem consumir o mesmo pacote de créditos, podendo assim adquirir um pacote com o preço/crédito mais em conta.</p>
             </div>
             <p>Para realizar uma recarga, basta acessar na tela inicial do Painel, <strong>Comprar créditos</strong>, escolher um pacote de créditos, inserir os dados do pagador e escolher se pagará em <strong>Boleto</strong> ou <strong>Cartão de crédito</strong>.</p>
-            <div class="callout callout-success">
-                <p>Com pagamento no Cartão de crédito os pacote é creditado instantaneamente, assim que o admnistradora do seu cartão autorizar a compra.</p>
+            <div class="callout callout-info">
+                <p>Com pagamento no Cartão de crédito, o pacote é diponibilizado no seu painel instantaneamente, assim que o admnistradora do seu cartão autorizar a compra.</p>
             </div>
             </div>
             <!-- /.box-body -->
