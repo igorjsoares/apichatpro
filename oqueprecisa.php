@@ -51,23 +51,9 @@ include 'menu.php';
             </div>
             <!-- /.box-header -->
             <div class="box-body">
-                <p>Para entender o que é a API ChatPro, primeiramente precisamos entender o que é uma API.</p>
-              <blockquote>
-                <p>API é um conjunto de rotinas e padrões ara acesso de dados de um aplicativo ou plataforma, é utilizada para comunicação entre sistemas, aplicativos ou plataformas. </p>
-              </blockquote>
-
-                <p>A API ChatPro é um conjunto de métodos que irá fazer com que o seu sistema, aplicativo ou plataforma ENVIE e RECEBA mensagens via Whatsapp.</p>
-
-                <p>Com a API ChatPro seu sistema poderá de maneira automática ou não, enviar mensagens para clientes informando por exemplo o detalhamento de uma compra, podendo lembrar o paciente de uma consulta marcada no seu sistema, podendo enviar para o WhatsApp mensagens de rastreamento de encomentas, controle de logística, automação residencial e industrial, rastreamento veicular, criação de atendimento automático, entre várias outras possibilidades que podem ser alcançadas.</p>
-
-                <p>Seu sistema também será capaz de receber as mensagens recebidas e fazer o que você quiser com elas, como por exemplo, você pode responder o cliente, dependendo da mensagem dele, pode salvar em banco de dados, pode alterar o status de uma transação... dentre várias possibilidades.</p>
-                <BR>
-                <div class="callout callout-info">
-                <h4>Infinitas possibilidades</h4>
-
-                <p>São muitas as possibilidades, invista na sua criatividade e deixe a comunicação com a gente.</p>
-              </div>
-
+            <p>Como o chat pro é uma API para implementação das metodologias de envio e recebimento do WhatsApp, ele necessita de uma aplicação que o embarcará.</p>
+            <p>Para isso é necessário conhecimentos de desenvolvimento, ou seja, caso você não seja um desenvolvedor, precisará procurar o desenvolvedor do seu sistema para que ele possa integrar a API no sistema, site, app ou plataforma.</p>
+            <p>Não é necessário conhecimentos aprofundados em programação, caso saiba na linguagem que tem costume programar, fazer requisições Http e manipular os dados das respostas, já conseguirá trabalhar com a API.</p>
 
             </div>
             <!-- /.box-body -->
