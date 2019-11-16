@@ -4,6 +4,8 @@
   <title>API ChatPro| Documentação</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap 3.3.7 -->
+  <link rel="stylesheet" href="plugins/bootstrap/dist/css/bootstrap.min.css">
   <!-- Font Awesome -->
   <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
   <!-- Ionicons -->
