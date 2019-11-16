@@ -47,14 +47,20 @@ include 'menu.php';
         <div class="col-md-12">
           <div class="box box-solid">
             <div class="box-header with-border">
-              <h3 class="box-title">O que é API?</h3>
             </div>
             <!-- /.box-header -->
             <div class="box-body">
-            <p>Como o chat pro é uma API para implementação das metodologias de envio e recebimento do WhatsApp, ele necessita de uma aplicação que o embarcará.</p>
+            <p>Como a API ChatPro é uma API, ele necessita de uma aplicação que a embarcará.</p>
             <p>Para isso é necessário conhecimentos de desenvolvimento, ou seja, caso você não seja um desenvolvedor, precisará procurar o desenvolvedor do seu sistema para que ele possa integrar a API no sistema, site, app ou plataforma.</p>
             <p>Não é necessário conhecimentos aprofundados em programação, caso saiba na linguagem que tem costume programar, fazer requisições Http e manipular os dados das respostas, já conseguirá trabalhar com a API.</p>
-
+            <p>A API ChatPro pode ser manipulada em diversas linguagens entre elas, as principais são:</p>
+   <BR>
+   <i class="fab fa-php"></i>
+   <i class="fab fa-node-js"></i>
+   <i class="fab fa-python"></i>
+   <i class="fab fa-cuttlefish"></i>
+   <BR>
+   <p>Entre várias outras linguagens</p>
             </div>
             <!-- /.box-body -->
           </div>
