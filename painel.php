@@ -49,15 +49,19 @@ include 'menu.php';
             <!-- /.box-header -->
             <div class="box-body">
             <div>
-            <img width="600" src="dist/img/api/tela_painel.png" alt="">
+            <img width="100%" src="dist/img/api/tela_painel.png" alt="">
             </div>
 
                 <p>O painel é onde você tem o controle dos seus créditos, consumo e instâncias. </p>
                 <p>Na barra superior tem acesso aos créditos da conta, e pode Comprar Créditos ou ver Histórico, tanto de pagamentos, quanto de consumo.</p>
-                <img width="600" src="dist/img/api/tela_painel_sup.png" alt="">
+                <div>
+                <img width="100%" src="dist/img/api/tela_painel_sup.png" alt="">
+                </div>
                 <BR>
                 <p>Mais abaixo temos as instâncias ativas  na conta, todas as instâncias que estiverem aqui, compartilharão o mesmo pacote de créditos. </p>
-                 <img width="600" src="dist/img/api/tela_painel_inf.png" alt="">
+                <div> 
+                <img width="100%" src="dist/img/api/tela_painel_inf.png" alt="">
+                </div>
             </div>
             <!-- /.box-body -->
           </div>
