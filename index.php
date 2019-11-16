@@ -41,7 +41,7 @@ include 'menu.php';
 
     <!-- Main content -->
     <section class="content">
-      <div class="container-fluid">
+      <div style="margin-left: 10px;" class="container-fluid">
        
        <!-- CONTEÚDO PRINCIPAL -->
 
