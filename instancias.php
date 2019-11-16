@@ -50,6 +50,7 @@ include 'menu.php';
             <div class="box-body">
             
                 <p>Cada instância é a possibilidade de conexão de um número de WhatsApp. Caso o seu negócio necessite que tenha vários números compartilhando o mesmo pacote de créditos, é aqui que multiplicará os números.</p>
+                <div><img src="dist/img/api/tela_painel_inf.png" width="90%" alt=""></div>
               <p>Cada instância é individual, tanto em infraestrutura quanto em credenciais de envio, ou seja só compartilham o mesmo pacote de créditos.</p>
               <p>Ao realizar uma recarga você terá 1 instância inclusa no seu painel, para instâncias adicionais, cada instância tem o custo mensal de R$ 50,00.</p>
               <p>Para solicitar instâncias adicionais basta solicitar um link de pagamento ao suporte, informando a quantidade de instâncias adicionais necessita.</p>
