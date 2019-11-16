@@ -52,60 +52,7 @@ include 'menu.php';
             <p>A API trabalha com o modelo de pacotes de créditos pré pago, onde <strong style="color: green;">cada crédito representa uma mensagem enviada</strong>, ou seja, não cobramos por mensagens recebidas.</p>
             <p>Quanto maior o pacote de créditos adquirido, menor o valor pago por crédito, podendo chegar a 4 centavos cada crédito, abaixo uma tabela com os valores:</p>
             
-            <div class="precos__content content">
-
-		<h1 class="precos__titulo">Preços</h1>
-		<h2 class="precos__descricao">Os créditos são consumidos apenas por mensagens enviadas e confirmadas</h2>
-
-		<div class="precos-grid">
-			<div class="precos-grid__item">
-				<div class="precos-grid__inner1">
-					<p class="precos-grid__qtd"><strong>2.500</strong>créditos</p>
-					<p class="precos-grid__valor">R$ <strong>0,13</strong></p>
-					<p class="precos-grid__valormsg">por mensagem</p>
-					<p class="precos-grid__custo">1 instância do WhatsApp grátis</p>
-				</div>
-				<div class="precos-grid__inner2">
-					<a href="teste-gratis" data-fancybox="" data-type="ajax" class="button button__sec">Teste grátis</a>
-				</div>
-			</div>
-			<div class="precos-grid__item">
-				<div class="precos-grid__inner1">
-					<p class="precos-grid__qtd"><strong>5.000</strong>créditos</p>
-					<p class="precos-grid__valor">R$ <strong>0,09</strong></p>
-					<p class="precos-grid__valormsg">por mensagem</p>
-					<p class="precos-grid__custo">1 instância do WhatsApp grátis</p>
-				</div>
-				<div class="precos-grid__inner2">
-					<a href="teste-gratis" data-fancybox="" data-type="ajax" class="button button__sec">Teste grátis</a>
-				</div>
-			</div>
-			<div class="precos-grid__item">
-				<div class="precos-grid__inner1">
-					<p class="precos-grid__qtd"><strong>10.000</strong>créditos</p>
-					<p class="precos-grid__valor">R$ <strong>0,06</strong></p>
-					<p class="precos-grid__valormsg">por mensagem</p>
-					<p class="precos-grid__custo">1 instância do WhatsApp grátis</p>
-				</div>
-				<div class="precos-grid__inner2">
-					<a href="teste-gratis" data-fancybox="" data-type="ajax" class="button button__sec">Teste grátis</a>
-				</div>
-			</div>
-			<div class="precos-grid__item">
-				<div class="precos-grid__inner1">
-					<p class="precos-grid__qtd"><strong>50.000</strong>créditos</p>
-					<p class="precos-grid__valor">R$ <strong>0,04</strong></p>
-					<p class="precos-grid__valormsg">por mensagem</p>
-					<p class="precos-grid__custo">1 instância do WhatsApp grátis</p>
-				</div>
-				<div class="precos-grid__inner2">
-					<a href="teste-gratis" data-fancybox="" data-type="ajax" class="button button__sec">Teste grátis</a>
-				</div>
-			</div>		
-		</div>
-
-	</div>
-    
+            
             <ul>
                 <li>2.500 créditos • R$325,00 (R$0,13 por crédito)</li>
                 <li>5.000 créditos • R$450,00 (R$0,09 por crédito)</li>
