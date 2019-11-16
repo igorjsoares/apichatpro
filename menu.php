@@ -53,21 +53,21 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="./index.html" class="nav-link">
+                <a href="painel.php" class="nav-link">
                   <i class="fa fa-television nav-icon"></i>
                   <p>Painel</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="./index2.html" class="nav-link">
-                  <i class="fas fa-qrcode nav-icon"></i>
-                  <p>Instâncias</p>
+                <a href="preco.php" class="nav-link">
+                  <i class="fa  fa-credit-card nav-icon"></i>
+                  <p>Preços / Créditos</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="./index3.html" class="nav-link">
-                  <i class="fa  fa-credit-card nav-icon"></i>
-                  <p>Preços / Créditos</p>
+                <a href="instancias.php" class="nav-link">
+                  <i class="fas fa-qrcode nav-icon"></i>
+                  <p>Instâncias</p>
                 </a>
               </li>
             </ul>
