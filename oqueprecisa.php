@@ -51,7 +51,9 @@ include 'menu.php';
             <!-- /.box-header -->
             <div class="box-body">
             <p>Como a API ChatPro é uma API, ele necessita de uma aplicação que a embarcará.</p>
-            <p>Para isso é necessário conhecimentos de desenvolvimento, ou seja, caso você não seja um desenvolvedor, precisará procurar o desenvolvedor do seu sistema para que ele possa integrar a API no sistema, site, app ou plataforma.</p>
+            <div class="callout callout-info">
+                <p>Para isso é necessário conhecimentos de desenvolvimento, ou seja, caso você não seja um desenvolvedor, precisará procurar o desenvolvedor do seu sistema para que ele possa integrar a API no sistema, site, app ou plataforma.</p>
+            </div>
             <p>Não é necessário conhecimentos aprofundados em programação, caso saiba na linguagem que tem costume programar, fazer requisições Http e manipular os dados das respostas, já conseguirá trabalhar com a API.</p>
             <p>A API ChatPro pode ser manipulada em diversas linguagens entre elas, as principais são:</p>
    <BR>
@@ -75,6 +77,7 @@ include 'menu.php';
             <img width="150" height="150" src="dist/img/api/Java.png" alt="Java">
         </div>
    </div>
+   <bR>
    <div class="row">
         <div class="col-2">
             <img width="150" height="150" src="dist/img/api/JS.png" alt="JavaScript">
