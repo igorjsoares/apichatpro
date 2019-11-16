@@ -55,12 +55,42 @@ include 'menu.php';
             <p>Não é necessário conhecimentos aprofundados em programação, caso saiba na linguagem que tem costume programar, fazer requisições Http e manipular os dados das respostas, já conseguirá trabalhar com a API.</p>
             <p>A API ChatPro pode ser manipulada em diversas linguagens entre elas, as principais são:</p>
    <BR>
-   <i class="fab fa-php"></i>
-   <i class="fab fa-node-js"></i>
-   <i class="fab fa-python"></i>
-   <i class="fab fa-cuttlefish"></i>
+   <div class="row">
+        <div class="col-2">
+            <img src="dist/img/api/c.png" alt="C">
+        </div>
+        <div class="col-2">
+            <img src="dist/img/api/cmaismais.png" alt="C">
+        </div>
+        <div class="col-2">
+            <img src="dist/img/api/csharp.png" alt="C">
+        </div>
+        <div class="col-2">
+            <img src="dist/img/api/Delphi.png" alt="C">
+        </div>
+        <div class="col-2">
+            <img src="dist/img/api/Go.png" alt="C">
+        </div>
+        <div class="col-2">
+            <img src="dist/img/api/Java.png" alt="C">
+        </div>
+   </div>
+   <div class="row">
+        <div class="col-2">
+            <img src="dist/img/api/JS.png" alt="C">
+        </div>
+        <div class="col-2">
+            <img src="dist/img/api/php.png" alt="C">
+        </div>
+        <div class="col-2">
+            <img src="dist/img/api/phyton.png" alt="C">
+        </div>
+        <div class="col-2">
+            <img src="dist/img/api/Ruby.png" alt="C">
+        </div>
+   </div>
    <BR>
-   <p>Entre várias outras linguagens</p>
+   <p>Entre várias outras linguagens.</p>
             </div>
             <!-- /.box-body -->
           </div>
