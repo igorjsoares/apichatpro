@@ -64,12 +64,16 @@ include 'menu.php';
 
                 <p>A API ChatPro é um conjunto de métodos que irá fazer com que o seu sistema, aplicativo ou plataforma ENVIE e RECEBA mensagens via Whatsapp.</p>
 
-                <p>Com a API ChatPro seu sistema poderá de maneira automática ou não, enviar mensagens para clientes informando por exemplo o detalhamento de uma compra, podendo lembrar o paciente de uma consulta marcada no seu sistema, podendo enviar para o WhatsApp mensagens de rastreamento de encomentas, controle de logística, automação residencial e industrial, rastramento veicular entre várias outras possibilidades que podem ser alcançadas.</p>
+                <p>Com a API ChatPro seu sistema poderá de maneira automática ou não, enviar mensagens para clientes informando por exemplo o detalhamento de uma compra, podendo lembrar o paciente de uma consulta marcada no seu sistema, podendo enviar para o WhatsApp mensagens de rastreamento de encomentas, controle de logística, automação residencial e industrial, rastreamento veicular, criação de atendimento automático, entre várias outras possibilidades que podem ser alcançadas.</p>
 
-                <p>Seu sistema será capaz de receber também as respostas e fazer o que você quiser, você pode responder o cliente, dependendo da fala dele, pode salvar em banco de dados, pode alterar o status de uma transação... dentre várias possibilidades.</p>
-<BR>
-<h2>São muitas as possibilidades, invista na sua criatividade e deixe a comunicação com a gente.</h2>
-<BR>
+                <p>Seu sistema também será capaz de receber as mensagens recebidas e fazer o que você quiser com elas, como por exemplo, você pode responder o cliente, dependendo da mensagem dele, pode salvar em banco de dados, pode alterar o status de uma transação... dentre várias possibilidades.</p>
+                <BR>
+                <div class="callout callout-info">
+                <h4>Infinitas possibilidades</h4>
+
+                <p>São muitas as possibilidades, invista na sua criatividade e deixe a comunicação com a gente.</p>
+              </div>
+
 
             </div>
             <!-- /.box-body -->
