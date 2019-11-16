@@ -57,36 +57,36 @@ include 'menu.php';
    <BR>
    <div class="row">
         <div class="col-2">
-            <img width="50" height="50" src="dist/img/api/c.png" alt="C">
+            <img width="150" height="150" src="dist/img/api/c.png" alt="C">
         </div>
         <div class="col-2">
-            <img width="50" height="50" src="dist/img/api/cmaismais.png" alt="C++">
+            <img width="150" height="150" src="dist/img/api/cmaismais.png" alt="C++">
         </div>
         <div class="col-2">
-            <img width="50" height="50" src="dist/img/api/csharp.png" alt="C#">
+            <img width="150" height="150" src="dist/img/api/csharp.png" alt="C#">
         </div>
         <div class="col-2">
-            <img width="50" height="50" src="dist/img/api/Delphi.png" alt="Delphi">
+            <img width="150" height="150" src="dist/img/api/Delphi.png" alt="Delphi">
         </div>
         <div class="col-2">
-            <img width="50" height="50" src="dist/img/api/Go.png" alt="Go">
+            <img width="150" height="150" src="dist/img/api/Go.png" alt="Go">
         </div>
         <div class="col-2">
-            <img width="50" height="50" src="dist/img/api/Java.png" alt="Java">
+            <img width="150" height="150" src="dist/img/api/Java.png" alt="Java">
         </div>
    </div>
    <div class="row">
         <div class="col-2">
-            <img width="50" height="50" src="dist/img/api/JS.png" alt="JavaScript">
+            <img width="150" height="150" src="dist/img/api/JS.png" alt="JavaScript">
         </div>
         <div class="col-2">
-            <img width="50" height="50" src="dist/img/api/php.png" alt="PHP">
+            <img width="150" height="150" src="dist/img/api/php.png" alt="PHP">
         </div>
         <div class="col-2">
-            <img width="50" height="50" src="dist/img/api/phyton.png" alt="Phyton">
+            <img width="150" height="150" src="dist/img/api/phyton.png" alt="Phyton">
         </div>
         <div class="col-2">
-            <img width="50" height="50" src="dist/img/api/Ruby.png" alt="Ruby">
+            <img width="150" height="150" src="dist/img/api/Ruby.png" alt="Ruby">
         </div>
    </div>
    <BR>
