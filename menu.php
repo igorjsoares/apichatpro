@@ -83,31 +83,31 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="./index.html" class="nav-link">
+                <a href="metodos.php" class="nav-link">
                   <i class="fa fa-comments-o nav-icon"></i>
                   <p>Métodos</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="./index2.html" class="nav-link">
+                <a href="testepainel.php" class="nav-link">
                   <i class="fab fa-chrome nav-icon"></i>
                   <p>Testes no painel</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="./index3.html" class="nav-link">
+                <a href="docinterativa.php" class="nav-link">
                   <i class="fa fa-comments-o nav-icon"></i>
                   <p>Documentação interativa</p>
                 </a>
               </li>
                 <li class="nav-item">
-                <a href="./index3.html" class="nav-link">
+                <a href="postaman.php" class="nav-link">
                   <i class="fal fa-exchange-alt nav-icon"></i>
                   <p>Postman / Insomnia</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="./index3.html" class="nav-link">
+                <a href="testeservidor.php" class="nav-link">
                   <i class="fa fa-file-code-o nav-icon"></i>
                   <p>Testes no seu servidor</p>
                 </a>
