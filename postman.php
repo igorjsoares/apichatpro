@@ -49,7 +49,7 @@ include 'menu.php';
             <!-- /.box-header -->
             <div class="box-body">
             <div>
-            <img width="100%" src="dist/img/api/tela_painel.png" alt="">
+            <img width="100%" src="dist/img/api/logos_rest_client.png" alt="">
             </div>
 
                 <p>Postman e Insomnia são APIs Rest Client, de forma simplificada, são programas utilizados para testar APIs, enviando requisições e recebendo as respostas.</p>
@@ -61,7 +61,7 @@ include 'menu.php';
                 <ol>
                     <li>Primeiramente faça o download e intale o Postman do site oficial <a href="http://www.getpostman.com">www.getpostman.com</a>.</li>
                     <li>Ao abrir o programa, vamos começar com uma nova requisição, clique em <strong>New</strong> > <strong>Request</strong>.</li>
-                    <li>Em <strong>Request Name</strong> coloque <strong>Teste API Status</li>
+                    <li>Em <strong>Request Name</strong> coloque <strong>Teste API Status</strong></li>
                     <li>Em <strong>Create Colletion</strong>, coloque API ChatPro, para criar uma colação de testes dessa API</li>
                     <li>Clique agora em <strong>Save to API ChatPro</strong></li>
                     <li>O método /status é do tipo GET, então ao lado esquerdo de <strong>Enter request Url</strong>, escolha a opção GET.</li>
