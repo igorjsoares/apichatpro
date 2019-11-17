@@ -48,10 +48,7 @@ include 'menu.php';
           <div class="box box-solid">
             <!-- /.box-header -->
             <div class="box-body">
-            <div>
-            <img width="100%" src="dist/img/api/tela_painel.png" alt="">
-            </div>
-
+            
                 <p>A documentação interativa foi escrita dentro da plataforma swagger que permite que façamos testes da Api diretamente na documentação. Sendo assim além de conhecer os métodos podemos também já testar o funcionamento deles.<br>
                 Por esse motivo, cada instância tem seu endereço de documentação, por isso é necessário que acesse dentro do seu painel</p>
                 <ol>
