@@ -103,20 +103,6 @@ include 'menu.php';
                                 </td>
                                 <td>
                                     <code>
-                                        {
-                                        "number": "string"
-                                        }
-                                    </code>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>/get_profile</td>
-                                <td><span class="badge bg-green">POST</span></td>
-                                <td>Obtém o perfil do WhatsApp de um número específico<br>
-                                    Retorna se o número possui Whatsapp e obtem o nome e foto do WhatsApp desse número.
-                                </td>
-                                <td>
-                                    <code>
                                         {<BR>
                                         "number": "string"<BR>
                                         }
@@ -134,6 +120,54 @@ include 'menu.php';
                                         {<br>
                                         "menssage": "string",<br>
                                         "number": "string"<br>
+                                        }
+                                    </code>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>/send_message_file_from_url</td>
+                                <td><span class="badge bg-green">POST</span></td>
+                                <td>Envia uma mensagem com arquivo em anexo<br>
+                                    Com esse método é possível enviar qualquer tipo de arquivo em anexo, como imagem, áudio, vídeo, documentos .doc .xls .pdf, basta colocar o endereço do arquivo no campo URL da requisição, juntamente com o arquivo poderá enviar um texto na mesma mensagem no campo <strong>caption</strong> e será contato como 1 crédito apenas.    
+                                </td>
+                                <td>
+                                    <code>
+                                        {<br>
+                                        "caption": "string",<br>
+                                        "number": "string",<br>
+                                        "url": "string"<br>
+                                        }
+                                    </code>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>/send_location</td>
+                                <td><span class="badge bg-green">POST</span></td>
+                                <td>Envia uma mensagem com uma localização<br>
+                                    Este método envia uma localização via WhatsApp, basta informar a latitude e longetude de um determinado local (que poderá facilmente ser obtida no <a href="https://www.google.com.br/maps">Google maps<a>).
+                                </td>
+                                <td>
+                                    <code>
+                                        {<br>
+                                        "address": "string",<br>
+                                        "lat": 0,<br>
+                                        "lng": 0,<brb>
+                                        "name": "string",<br>
+                                        "number": "string"<br>
+                                        }
+                                    </code>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>/webhook</td>
+                                <td><span class="badge bg-green">POST</span></td>
+                                <td>Seta o webhook que vai receber os eventos<br>
+                                    Este método é capaz de setar o webhook, que é o arquivo que receberá os eventos do WhatsApp, como por exemplo as mensagens recebidas.
+                                </td>
+                                <td>
+                                    <code>
+                                        {<br>
+                                        "webhook": "string"<br>
                                         }
                                     </code>
                                 </td>
