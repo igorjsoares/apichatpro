@@ -97,7 +97,7 @@ include 'menu.php';
                             </tr>
                             <tr>
                                 <td>/get_profile</td>
-                                <td><span class="badge bg-blue">GET</span></td>
+                                <td><span class="badge bg-green">POST</span></td>
                                 <td>Obtém o perfil do WhatsApp de um número específico<br>
                                     Retorna se o número possui Whatsapp e obtem o nome e foto do WhatsApp desse número.
                                 </td>
@@ -105,6 +105,35 @@ include 'menu.php';
                                     <code>
                                         {
                                         "number": "string"
+                                        }
+                                    </code>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>/get_profile</td>
+                                <td><span class="badge bg-green">POST</span></td>
+                                <td>Obtém o perfil do WhatsApp de um número específico<br>
+                                    Retorna se o número possui Whatsapp e obtem o nome e foto do WhatsApp desse número.
+                                </td>
+                                <td>
+                                    <code>
+                                        {<BR>
+                                        "number": "string"<BR>
+                                        }
+                                    </code>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>/send_message</td>
+                                <td><span class="badge bg-green">POST</span></td>
+                                <td>Envia uma mensagem de texto<br>
+                                    Envia para o número infomado uma mensagem de texto. Essa mensagem poderá conter texto formatado com os padrões do Whatsapp (como negrito entre *Negrito*), e emojis, copiando e colando emojis no corpo da mensagem.
+                                </td>
+                                <td>
+                                    <code>
+                                        {<br>
+                                        "menssage": "string",<br>
+                                        "number": "string"<br>
                                         }
                                     </code>
                                 </td>
