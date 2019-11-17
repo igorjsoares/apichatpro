@@ -59,9 +59,9 @@ include 'menu.php';
                         <tbody>
                             <tr>
                                 <th>Método</th>
-                                <th style="width: 40px">Tipo</th>
+                                <th style="width: 40px;">Tipo</th>
                                 <th>Descrição</th>
-                                <th style="width: 100px">Corpo da requisição (Json)</th>
+                                <th style="width: 200px;">Corpo da requisição (Json)</th>
                             </tr>
                             <tr>
                                 <td>/generate_qrcode</td>
