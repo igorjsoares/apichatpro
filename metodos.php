@@ -61,7 +61,7 @@ include 'menu.php';
                                 <th>Método</th>
                                 <th style="width: 40px">Tipo</th>
                                 <th>Descrição</th>
-                                <th>Corpo da requisição (Json)</th>
+                                <th style="width: 80px">Corpo da requisição (Json)</th>
                             </tr>
                             <tr>
                                 <td>/generate_qrcode</td>
