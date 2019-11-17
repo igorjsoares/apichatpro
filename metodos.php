@@ -145,7 +145,7 @@ include 'menu.php';
                                 <td><span class="badge bg-green">POST</span></td>
                                 <td>Envia uma mensagem com uma localização<br>
                                     Este método envia uma localização via WhatsApp, basta informar a latitude <strong>(lat)</strong> e longetude <strong>(lng)</strong> de um determinado local (que poderá facilmente ser obtida no <a href="https://www.google.com.br/maps">Google maps</a>). <br>
-                                    O campo <strong>andress</strong> poderá escrever o endereço que aparecerá na mensagem, e o campo <strong>nome</strong> será onde colocará um nome do local (exemplo.: Restaurante Comida Boa)
+                                    O campo <strong>address</strong> poderá escrever o endereço que aparecerá na mensagem, e o campo <strong>nome</strong> será onde colocará um nome do local (exemplo.: Restaurante Comida Boa)
                                 </td>
                                 <td>
                                     <code>
@@ -175,6 +175,11 @@ include 'menu.php';
                             </tr>
                         </tbody>
                     </table>
+                    <br>
+                    <div class="callout callout-danger">
+                        <p>Para mais detalhes de cada método, por exemplo os possíveis retornos, acesse sua Documentação interativa dentro do seu Painel. </p>\
+                        <button class="btn btn-info">Informações sobre Documentação intertiva</button>
+                    </div>
                     </div>
                     <!-- /.box-body -->
                 </div>
