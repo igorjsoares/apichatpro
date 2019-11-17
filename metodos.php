@@ -48,23 +48,43 @@ include 'menu.php';
           <div class="box box-solid">
             <!-- /.box-header -->
             <div class="box-body">
-            <div>
-            <img width="100%" src="dist/img/api/tela_painel.png" alt="">
-            </div>
-
-                <p>O painel é onde você tem o controle dos seus créditos, consumo e instâncias. </p>
-                <p>Na barra superior tem acesso aos créditos da conta, e pode Comprar Créditos ou ver Histórico, tanto de pagamentos, quanto de consumo.</p>
-                <div>
-                <img width="100%" src="dist/img/api/tela_painel_sup.png" alt="">
+            
+                <div class="box">
+                    <div class="box-header">
+                    <h3 class="box-title">Métodos API ChatPro</h3>
+                    </div>
+                    <!-- /.box-header -->
+                    <div class="box-body no-padding">
+                    <table class="table table-striped">
+                        <tbody>
+                            <tr>
+                                <th>Método</th>
+                                <th style="width: 40px">Tipo</th>
+                                <th>Descrição</th>
+                                <th>Corpo da requisição</th>
+                            </tr>
+                            <tr>
+                                <td>/generate_qrcode</td>
+                                <td><span class="badge bg-blue">GET</span></td>
+                                <td>Gera um novo QRCode. <br>
+                                    Com esse método é possgerar um QRCoded dentro do seu sistema, caso seja necessidade, fazendo com que seus clientes, consigam sincronizar o WhatsApp através de uma tela do seu sistema, sem ter que entrar no painel.
+                                </td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>/status</td>
+                                <td><span class="badge bg-blue">GET</span></td>
+                                <td>Obtém o status da conexão do celular com a API <br>
+                                    Com esse método, entre outras coisas, seu sistema será capaz de monitorar a conexão do celular, entendendo se ele está ou não conectado ao servidor, nível de bateria, rede etc.
+                                </td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    </div>
+                    <!-- /.box-body -->
                 </div>
-                <BR>
-                <p>Mais abaixo temos as instâncias ativas  na conta, todas as instâncias que estiverem aqui, compartilharão o mesmo pacote de créditos. </p>
-                <div> 
-                <img width="100%" src="dist/img/api/tela_painel_inf.png" alt="">
-                </div>
-                <p>É neste espaço que estará todas as instâncias contratadas.</p>
 
-                <p>No painel é onde fará todo o controle de consumo, créditos e instâncias.</p>
             </div>
             <!-- /.box-body -->
           </div>

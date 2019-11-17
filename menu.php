@@ -101,7 +101,7 @@
                 </a>
               </li>
                 <li class="nav-item">
-                <a href="postaman.php" class="nav-link">
+                <a href="postman.php" class="nav-link">
                   <i class="fal fa-exchange-alt nav-icon"></i>
                   <p>Postman / Insomnia</p>
                 </a>
