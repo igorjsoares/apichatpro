@@ -79,11 +79,12 @@ include 'menu.php';
               <li><strong>Nome da instância: </strong>É o nome que aparecerá no painel, para controle pessoal das instâncias.</li>
               <li><strong>Webhook: </strong>Webhook é o endereço de um arquivo no seu servidor que receberá as requisições que o Whatsapp enviará, nessas requisições vem, entre outras coisas como status da mensagem, se foi lida ou não, vem também a mensagem recebida. A partir daí você pode tratar ela, por exemplo salvando em banco de dados para visualização.</li>
               <li><strong>Documentação interativa: </strong>Nesse botão você encontrará a documentação no site Swagger, onde poderá realizar testes diretamente na documentação.</li>
-              <li><strong>Código: </strong>Esse é o código único da sua instância.</li>
               <li><strong>Testes (Caso conectado): </strong>Nesta área são realizados os primeios testes, o próprio painel chama as requisições. <strong style="color: red;"> ESTE ESPAÇO SÓ APARECERÁ OU FUNCIONARÁ COM O WHATSAPP SINCRONIZADO. </strong>
+                <ul>
                 <li>Para testar, basta colocar um número com DDD (que não seja o número sincronizado), inserir uma mensagem e clicar em <strong>Enviar mensagem</strong>.</li>
                 <li>O painel fará a requisição send_message com os dados informados e mostrará na tela o retorno da requisição.</li>
                 <p>Para ver dados do perfil do número inserido, basta clicar em <strong>Perfil</strong> o painel irá fazer a requisição ?profile?</p>
+                </ul>
               </li>
               </ul>
               </div>
