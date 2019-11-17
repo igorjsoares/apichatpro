@@ -70,15 +70,23 @@ include 'menu.php';
                     <p>Para sua segurança, assim que a janela do Swagger for fechada, o seu navegador perde a autorização. </p>
                 </div>
                 <bR>
-                <p>Vamos fazer um teste no método <strong>/status</strong>, esse método retorna o status da conexão do WhatsApp com o servidor, clique na tabela no método /status, depois clique em <strong>Try it now</strong>  localizado no lado direito dentro do método. <bR>
-                Nesse momento você vai chamar uma requisição do tipo Get > clique no botão <strong>Execute</strong> que apareceu logo abaixo.</p>
-                <p>O Swagger traz como foi feita a requisição e traz a resposta da mesma, trazendo o status atual da conexão.</p>
+                <p>Vamos fazer um teste no método <strong>/status</strong>, esse método retorna o status da conexão do WhatsApp com o servidor.
+                <ol>
+                    <li>Clique na tabela no método <strong>/status</strong></li>
+                    <li>Clique em <strong>Try it now</strong>  localizado no lado direito dentro do método.</li>
+                    <li>Nesse momento você vai chamar uma requisição do tipo Get, clique no botão <strong>Execute</strong> que apareceu logo abaixo.</li>
+                    <p>O Swagger traz como foi feita a requisição e traz a resposta da mesma, trazendo o status atual da conexão.</p>
+                </ol>
                 <br>
-                <p>Agora vamos fazer um envio de mensagem pelo swagger, clique no método <strong>/send_message</strong> e clique em <strong>Try it now</strong>.</p>
+                <p>Agora vamos fazer um envio de mensagem pelo swagger.
+                <ol>
+                <li>clique no método <strong>/send_message</strong></li>
+                <li>Clique em <strong>Try it now</strong>, para poder testar o método, nesse momento vai tornar editável o corpo da requisição (body).</p>
                 <div class="callout callout-info">
-                    <p>Já esse método e do tipo POST, e tem um corpo da requisição, onde será informado o número e a mensagem.</p>
+                    <p>Já esse método é do tipo POST, e tem um corpo da requisição (body), onde será informado o número e a mensagem.</p>
                 </div>
-                <p>Substitua as palavras string por um número de destino (em number) e coloque a mensagem (em message) > clique em <strong>Execute</strong>.</p>
+                <li>Substitua as palavras string por um número de destino (em number) e por uma mensagem (em message)</li>
+                <li>Clique em <strong>Execute</strong>.</li>
                 <p>A mensagem será enviada, o swagger também retornará como ele fez a requisição e a resposta que retornou.</p>
             </div>
             <!-- /.box-body -->
