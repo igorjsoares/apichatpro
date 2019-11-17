@@ -144,14 +144,15 @@ include 'menu.php';
                                 <td>/send_location</td>
                                 <td><span class="badge bg-green">POST</span></td>
                                 <td>Envia uma mensagem com uma localização<br>
-                                    Este método envia uma localização via WhatsApp, basta informar a latitude e longetude de um determinado local (que poderá facilmente ser obtida no <a href="https://www.google.com.br/maps">Google maps<a>).
+                                    Este método envia uma localização via WhatsApp, basta informar a latitude <strong>(lat)</strong> e longetude <strong>(lng)</strong> de um determinado local (que poderá facilmente ser obtida no <a href="https://www.google.com.br/maps">Google maps</a>). <br>
+                                    O campo <strong>andress</strong> poderá escrever o endereço que aparecerá na mensagem, e o campo <strong>nome</strong> será onde colocará um nome do local (exemplo.: Restaurante Comida Boa)
                                 </td>
                                 <td>
                                     <code>
                                         {<br>
                                         "address": "string",<br>
                                         "lat": 0,<br>
-                                        "lng": 0,<brb>
+                                        "lng": 0,<br>
                                         "name": "string",<br>
                                         "number": "string"<br>
                                         }
