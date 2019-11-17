@@ -61,7 +61,7 @@ include 'menu.php';
                                 <th>Método</th>
                                 <th style="width: 40px">Tipo</th>
                                 <th>Descrição</th>
-                                <th>Corpo da requisição</th>
+                                <th>Corpo da requisição (Json)</th>
                             </tr>
                             <tr>
                                 <td>/generate_qrcode</td>
@@ -78,6 +78,36 @@ include 'menu.php';
                                     Com esse método, entre outras coisas, seu sistema será capaz de monitorar a conexão do celular, entendendo se ele está ou não conectado ao servidor, nível de bateria, rede etc.
                                 </td>
                                 <td></td>
+                            </tr>
+                            <tr>
+                                <td>/reload</td>
+                                <td><span class="badge bg-blue">GET</span></td>
+                                <td>Reconecta a instância<br>
+                                    Caso o sistema identifique que o celular está desconectado, chamando esse método, força uma reconexão do celular na instância.    
+                                </td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>/contacts</td>
+                                <td><span class="badge bg-blue">GET</span></td>
+                                <td>Retorna a lista de contatos <br>
+                                    Esse método retorna toda a lista de contatos do celular conectado.
+                                </td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>/get_profile</td>
+                                <td><span class="badge bg-blue">GET</span></td>
+                                <td>Obtém o perfil do WhatsApp de um número específico<br>
+                                    Retorna se o número possui Whatsapp e obtem o nome e foto do WhatsApp desse número.
+                                </td>
+                                <td>
+                                    <code>
+                                        {
+                                        "number": "string"
+                                        }
+                                    </code>
+                                </td>
                             </tr>
                         </tbody>
                     </table>
