@@ -92,6 +92,7 @@ include 'menu.php';
                     <p>O Postman faz a requisição com o método e retorna a resposta com status, ID da mensagem e o timestamp.</p>
                 </ol>
                 
+                <p>Após fazer as requisições com sucesso, você ainda pode entender como seria a requisição em várias linguagens, clicando no <strong>Code</strong>, abaixo do botão Send e escolhendo uma linguagem de programação.</p>
 
             </div>
             <!-- /.box-body -->
