@@ -178,7 +178,7 @@ include 'menu.php';
                     <br>
                     <div class="callout callout-danger">
                         <p>Para mais detalhes de cada método, por exemplo os possíveis retornos, acesse sua Documentação interativa dentro do seu Painel. </p>
-                        <a href="docinterativa.php" class="btn btn-info">Informações sobre Documentação intertiva</a>
+                        <button href="docinterativa.php" class="btn btn-info">Informações sobre Documentação intertiva</button>
                     </div>
                     </div>
                     <!-- /.box-body -->
