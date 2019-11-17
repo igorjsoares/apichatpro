@@ -70,7 +70,7 @@ include 'menu.php';
                     <p>Para sua segurança, assim que a janela do Swagger for fechada, o seu navegador perde a autorização. </p>
                 </div>
                 <bR>
-                <p>Vamos fazer um teste no método <strong>/status</strong>, esse método retorna o status da conexão do WhatsApp com o servidor.
+                <p>Vamos fazer um teste no método <strong>/status</strong>, esse método retorna o status da conexão do WhatsApp com o servidor.</p>
                 <ol>
                     <li>Clique na tabela no método <strong>/status</strong></li>
                     <li>Clique em <strong>Try it now</strong>  localizado no lado direito dentro do método.</li>
@@ -88,6 +88,7 @@ include 'menu.php';
                 <li>Substitua as palavras string por um número de destino (em number) e por uma mensagem (em message)</li>
                 <li>Clique em <strong>Execute</strong>.</li>
                 <p>A mensagem será enviada, o swagger também retornará como ele fez a requisição e a resposta que retornou.</p>
+                </ol>
             </div>
             <!-- /.box-body -->
           </div>
