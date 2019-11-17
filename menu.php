@@ -89,12 +89,6 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a href="testepainel.php" class="nav-link">
-                  <i class="fab fa-chrome nav-icon"></i>
-                  <p>Testes no painel</p>
-                </a>
-              </li>
-              <li class="nav-item">
                 <a href="docinterativa.php" class="nav-link">
                   <i class="fa fa-comments-o nav-icon"></i>
                   <p>Documentação interativa</p>
