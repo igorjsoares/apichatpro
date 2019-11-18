@@ -90,13 +90,13 @@
               </li>
               <li class="nav-item">
                 <a href="docinterativa.php" class="nav-link">
-                  <i class="fa fa-comments-o nav-icon"></i>
+                  <i class="far fa-file-alt nav-icon"></i>
                   <p>Documentação interativa</p>
                 </a>
               </li>
                 <li class="nav-item">
                 <a href="postman.php" class="nav-link">
-                  <i class="fal fa-exchange-alt nav-icon"></i>
+                  <i class="fas fa-exchange-alt nav-icon"></i>
                   <p>Postman / Insomnia</p>
                 </a>
               </li>
