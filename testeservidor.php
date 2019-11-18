@@ -11,7 +11,13 @@ include 'head.php';
 
 <body class="hold-transition sidebar-mini layout-fixed">
 
-<!-- Content Wrapper. Contains page content -->
+<?php
+include 'header.php';
+
+include 'menu.php';
+?>
+
+ <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
     <!-- Content Header (Page header) -->
     <section class="content-header">
@@ -976,6 +982,11 @@ include 'head.php';
     </section>
     <!-- /.content -->
   </div>
+  
+  <?php
+   include 'footer.php';
+   include 'scripts.php'; 
+  ?>
 
 </body>
 </html>
