@@ -83,10 +83,10 @@ include 'menu.php';
                     <li>Escreva no corpo da requição o json infomado na documentação para esse método</li>
                     <pre>
                         <code class="html">
-                            {
-                            "menssage": "string",
-                            "number": "string"
-                            }
+{
+"menssage": "string",
+"number": "string"
+}
                         </code>
                     </pre>
                     <li>Troque a palavra String em frente a menssage por um texto qualquer (o texto da mensagem), e a palavra String em frente ao number, pelo número com DDD que receberá a mensagem (aconselhável não enviar para o próprio número conectado)</li>
