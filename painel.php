@@ -54,7 +54,7 @@ include 'menu.php';
 
                 <p>O painel é onde você tem o controle dos seus créditos, consumo e instâncias. </p>
                 <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal-video">
-                  Assistir vídeo com instruções
+                  Assistir vídeo com instruções <i class="nav-icon fas fa-comments"></i>
                 </button>
                 <br>
                 <p>Na barra superior tem acesso aos créditos da conta, e pode Comprar Créditos ou ver Histórico, tanto de pagamentos, quanto de consumo.</p>
