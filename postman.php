@@ -54,6 +54,12 @@ include 'menu.php';
 
                 <p>Postman e Insomnia são APIs Rest Client, de forma simplificada, são programas utilizados para testar APIs, enviando requisições e recebendo as respostas.</p>
                 <p>Os dois programas são bem parecidos, por isso vamos testar aqui somente o Postman, mas caso o programa instalado seja o Insomnia, a lógica é a mesma e você será capaz de testar também.</p>
+                
+                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal-video">
+                  Assistir vídeo com instruções   <i class="far fa-play-circle"></i>
+                </button>
+                <br><br>
+                
                 <p>Vamos fazer um teste com o método <strong>/status</strong></p>
                 <div class="callout callout-danger">
                 <p>Lembrando que para realizar qualquer teste com a API, o celular tem que estar <strong style="color: green">Conectado</strong> no QrCode do painel.</p>
@@ -103,6 +109,30 @@ include 'menu.php';
         </div>
 
       </div><!-- /.container-fluid -->
+
+      <!-- /.Modal-video -->
+      <div class="modal fade" id="modal-video">
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title">Realizando testes com PostMan</h4>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <figure>
+                <video controls>
+                    <source src="dist/videos/API_POSTMAN_ExportWS.mp4" type="video/mp4" />
+                    <p>Seu navegador não suporta o elemento video HTML5.<br /> 
+                    Assista o video localmente <br /> <a href="PlymouthRoadrunnerCommercial.mp4">fazendo o download</a></p>
+                </video>
+            </figure>
+            </div>
+          </div>
+          <!-- /.modal-content -->
+
+
     </section>
     <!-- /.content -->
   </div>

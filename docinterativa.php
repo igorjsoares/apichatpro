@@ -50,7 +50,11 @@ include 'menu.php';
             <div class="box-body">
             
                 <p>A documentação interativa foi escrita dentro da plataforma swagger que permite que façamos testes da Api diretamente na documentação. Sendo assim além de conhecer os métodos podemos também já testar o funcionamento deles.<br>
-                Por esse motivo, cada instância tem seu endereço de documentação, por isso é necessário que acesse dentro do seu painel</p>
+                Por esse motivo, cada instância tem seu endereço de documentação, por isso é necessário que acesse dentro do seu painel.</p>
+                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal-video">
+                  Assistir vídeo com instruções   <i class="far fa-play-circle"></i>
+                </button>
+                <br><br>
                 <ol>
                 <li>Entre no seu paniel e faça o login <a href="http://api.chatpro.com.br/painel">api.chatpro.com.br</a></li>
                 <li>Acesse sua instância</li>
@@ -96,6 +100,30 @@ include 'menu.php';
         </div>
 
       </div><!-- /.container-fluid -->
+
+      <!-- /.Modal-video -->
+      <div class="modal fade" id="modal-video">
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title">Acesso à documentação interativa</h4>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <figure>
+                <video controls>
+                    <source src="dist/videos/API_DocumentacaoInterativa_ExportWS.mp4" type="video/mp4" />
+                    <p>Seu navegador não suporta o elemento video HTML5.<br /> 
+                    Assista o video localmente <br /> <a href="PlymouthRoadrunnerCommercial.mp4">fazendo o download</a></p>
+                </video>
+            </figure>
+            </div>
+          </div>
+          <!-- /.modal-content -->
+
+
     </section>
     <!-- /.content -->
   </div>
