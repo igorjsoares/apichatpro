@@ -44,10 +44,20 @@ include 'menu.php';
       <div style="margin-left: 10px;" class="container-fluid">
        
        <!-- CONTEÚDO PRINCIPAL -->
-
+<!--
         <div class="">
             <iframe width="852" height="480" class="embed-responsive-item" src="dist/videos/API_Apresentacao_ExportWS.mp4" autostart="false" frameborder="0" allowfullscreen=""></iframe>
         </div>
+-->
+        <figure>
+            <video poster="videos/cover.jpg" controls>
+                <source src="dist/videos/API_Apresentacao_ExportWS.mp4" type="video/mp4" />
+                <p>Seu navegador não suporta o elemento video HTML5.<br /> 
+                Assista o video localmente <br /> <a href="PlymouthRoadrunnerCommercial.mp4">fazendo o download</a></p>
+            </video>
+        <figcaption>Video responsivo com HTML5 video</figcaption>
+        </figure>
+
         <BR>
 
         <div class="col-md-12">
