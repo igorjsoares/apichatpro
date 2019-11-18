@@ -89,7 +89,7 @@ include 'menu.php';
             </div>
             <div class="modal-body">
               <div class="">
-                <iframe width="852" height="480" class="embed-responsive-item" src="dist/videos/API_AcessoPainel_ExportWS.mp4" frameborder="0" allowfullscreen=""></iframe>
+                <iframe class="embed-responsive-item" src="dist/videos/API_AcessoPainel_ExportWS.mp4" frameborder="0" allowfullscreen=""></iframe>
               </div>
             </div>
           </div>
