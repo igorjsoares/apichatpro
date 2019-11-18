@@ -41,47 +41,40 @@ include 'menu.php';
 
     <!-- Main content -->
     <section class="content">
-      <div style="margin-left: 10px;" class="container-fluid">
-       
-       <!-- CONTEÚDO PRINCIPAL -->
-        <div class="col-md-12">
-          <div class="box box-solid">
-            <!-- /.box-header -->
-            <div class="box-body">
-
+   
            <div class="col-md-6">
             <div class="nav-tabs-custom">
-            <ul class="nav nav-tabs pull-right">
-              <li class="dropdown">
-                <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false">
-                  Linguagem <span class="caret"></span>
-                </a>
-                <ul class="dropdown-menu">
-                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#tab_1-1">C (LibCurl)</a></li>
-                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#tab_2-2">cURL</a></li>
-                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#tab_3-2">C# (RestSharp)</a></li>
-                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Go</a></li>
-                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Java (Ok Http)</a></li>
-                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Java (UniRest)</a></li>
-                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">JavaScript (Jquery AJAX)</a></li>
-                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">JavaScript (XHR)</a></li>
-                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">NodeJS (Native)</a></li>
-                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">NodeJS (Request)</a></li>
-                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">NodeJS (UniRest)</a></li>
-                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Objective-C (NSURL)</a></li>
-                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">PHP (HttpRequest)</a></li>
-                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">PHP (cURL)</a></li>
-                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Phyton (Http.client (Phyton 3))</a></li>
-                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Phyton (Requests)</a></li>
-                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Ruby (NET::HTTP)</a></li>
-                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Shell (wget)</a></li>
-                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Shell (Httpie)</a></li>
-                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Shell (cURL)</a></li>
-                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Swift (NSURL)</a></li>
+                <ul class="nav nav-tabs pull-right">
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false">
+                    Linguagem <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#tab_1-1">C (LibCurl)</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#tab_2-2">cURL</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#tab_3-2">C# (RestSharp)</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Go</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Java (Ok Http)</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Java (UniRest)</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">JavaScript (Jquery AJAX)</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">JavaScript (XHR)</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">NodeJS (Native)</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">NodeJS (Request)</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">NodeJS (UniRest)</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Objective-C (NSURL)</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">PHP (HttpRequest)</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">PHP (cURL)</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Phyton (Http.client (Phyton 3))</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Phyton (Requests)</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Ruby (NET::HTTP)</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Shell (wget)</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Shell (Httpie)</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Shell (cURL)</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Swift (NSURL)</a></li>
+                    </ul>
+                </li>
+                <li class="pull-left header"><i class="fa fa-th"></i> Exemplo de códigos</li>
                 </ul>
-              </li>
-              <li class="pull-left header"><i class="fa fa-th"></i> Exemplo de códigos</li>
-            </ul>
             <div class="tab-content">
               <div class="tab-pane" id="tab_1-1">
                 <b>How to use:</b>
@@ -120,14 +113,9 @@ include 'menu.php';
             </div>
             <!-- /.tab-content -->
           </div>
-           </div>
-            </div>
-            <!-- /.box-body -->
-          </div>
-          <!-- /.box -->
         </div>
+    </div>
 
-      </div><!-- /.container-fluid -->
     </section>
     <!-- /.content -->
   </div>
