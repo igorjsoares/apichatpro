@@ -69,7 +69,7 @@ include 'menu.php';
               <div class="card-body">
                 <div class="tab-content">
                   <div class="tab-pane active" id="tab_1">
-                    A wonderful 
+                    A wonderful é um problema muito grande isso.
                   </div>
                   <!-- /.tab-pane -->
                   <div class="tab-pane" id="tab_2">
