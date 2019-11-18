@@ -82,7 +82,7 @@ include 'menu.php';
                     <li>Escolha o tipo <strong>Raw</strong></li>
                     <li>Escreva no corpo da requição o json infomado na documentação para esse método</li>
                     <pre>
-                        <code class="html">
+                        <code class="json">
 {
 "menssage": "string",
 "number": "string"
