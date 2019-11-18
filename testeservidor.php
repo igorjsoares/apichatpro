@@ -50,7 +50,7 @@ include 'menu.php';
             <div class="box-body">
            
             <pre>
-                <code>
+                <code class="html">
                       <div class="box-body">
                 </code>
             </pre>
