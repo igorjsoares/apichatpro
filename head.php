@@ -20,4 +20,8 @@
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
   <!-- Place your kit's code here - Meu KIT fontawesome -->
     <script src="https://kit.fontawesome.com/5b9cd36734.js" crossorigin="anonymous"></script>
+    <!-- Blocos de código -->
+    <link rel="stylesheet"
+    href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.16.2/build/styles/default.min.css">
+<script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.16.2/build/highlight.min.js"></script>
 </head>
