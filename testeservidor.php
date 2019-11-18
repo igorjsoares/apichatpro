@@ -436,7 +436,7 @@ if ($err) {
 
                   <div class="tab-pane" id="python_http">
                     <pre>
-                    <code class="Python">
+                    <code class="hljs python">
 import http.client
 
 conn = http.client.HTTPConnection("[SeuEndPoint]")
@@ -461,7 +461,7 @@ print(data.decode("utf-8"))
 
                   <div class="tab-pane" id="python_request">
                     <pre>
-                    <code class="Python">
+                    <code class="hljs python">
 import requests
 
 url = "http://[SeuEndPoint]/api/v1/send_message"
