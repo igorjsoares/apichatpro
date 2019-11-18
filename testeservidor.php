@@ -336,7 +336,7 @@ req.end(function (res) {
 
                   <div class="tab-pane" id="objc">
                     <pre>
-                    <code class="html">
+                    <code class="objectivec">
 #import <Foundation/Foundation.h>
 
 NSDictionary *headers = @{ @"Authorization": @"5201d7c3caf9dc1633ae2766a7b88889xxxxx",
