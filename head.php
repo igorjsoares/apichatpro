@@ -19,7 +19,7 @@
   <!-- Place your kit's code here - Meu KIT fontawesome -->
     <script src="https://kit.fontawesome.com/5b9cd36734.js" crossorigin="anonymous"></script>
     <!-- Blocos de código -->
-    <link rel="stylesheet" href="plugins/highlight/styles/darkula.css">
+    <link rel="stylesheet" href="plugins/highlight/styles/dracula.css">
     <script src="plugins/highlight/highlight.pack.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
 

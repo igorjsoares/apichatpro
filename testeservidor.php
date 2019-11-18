@@ -62,8 +62,8 @@ include 'menu.php';
                   <li class="nav-item"><a class="nav-link" href="#objc" data-toggle="tab">Objective-C (NSURL)</a></li>
                   <li class="nav-item"><a class="nav-link" href="#php_http" data-toggle="tab">PHP (HttpRequest)</a></li>
                   <li class="nav-item"><a class="nav-link" href="#php_curl" data-toggle="tab">PHP (cURL)</a></li>
-                  <li class="nav-item"><a class="nav-link" href="#phyton_http" data-toggle="tab">Phyton (Http.client (Phyton 3))</a></li>
-                  <li class="nav-item"><a class="nav-link" href="#phyton_request" data-toggle="tab">Phyton (Requests)</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#python_http" data-toggle="tab">Python (Http.client (Phyton 3))</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#python_request" data-toggle="tab">Python (Requests)</a></li>
                   <li class="nav-item"><a class="nav-link" href="#ruby_net" data-toggle="tab">Ruby (NET::HTTP)</a></li>
                   <li class="nav-item"><a class="nav-link" href="#shell_wget" data-toggle="tab">Shell (wget)</a></li>
                   <li class="nav-item"><a class="nav-link" href="#shell_httpie" data-toggle="tab">Shell (Httpie)</a></li>
@@ -75,7 +75,7 @@ include 'menu.php';
                 <div class="tab-content">
                   <div class="tab-pane active" id="c_libcurl">
                     <pre>
-                        <code class="html">
+                        <code class="C++">
 CURL *hnd = curl_easy_init();
 
 curl_easy_setopt(hnd, CURLOPT_CUSTOMREQUEST, "POST");
@@ -102,7 +102,7 @@ CURLcode ret = curl_easy_perform(hnd);
                   <!-- /.tab-pane -->
                   <div class="tab-pane" id="curl">
                     <pre>
-                    <code class="html">
+                    <code class="C++">
 curl -X POST \
   [SeuEndPoint]/api/v1/send_message \
   -H 'Authorization: 5201d7c3caf9dc1633ae2766a7b888890dce4ec6' \
@@ -118,7 +118,7 @@ curl -X POST \
 
                   <div class="tab-pane" id="csharp">
                     <pre>
-                    <code class="html">
+                    <code class="C#">
 var client = new RestClient("http://[SeuEndPoint]/api/v1/send_message");
 var request = new RestRequest(Method.POST);
 request.AddHeader("cache-control", "no-cache");
@@ -132,7 +132,7 @@ IRestResponse response = client.Execute(request);
 
                   <div class="tab-pane" id="go">
                     <pre>
-                    <code class="html">
+                    <code class="Go">
 package main
 
 import (
@@ -169,7 +169,7 @@ func main() {
 
                   <div class="tab-pane" id="java_ok">
                     <pre>
-                    <code class="html">
+                    <code class="Java">
 OkHttpClient client = new OkHttpClient();
 
 MediaType mediaType = MediaType.parse("application/octet-stream");
@@ -189,7 +189,7 @@ Response response = client.newCall(request).execute();
 
                   <div class="tab-pane" id="java_uni">
                     <pre>
-                    <code class="html">
+                    <code class="Java">
 HttpResponse<String> response = Unirest.post("http://[SeuEndPoint]/api/v1/send_message")
   .header("Authorization", "5201d7c3caf9dc1633ae2766a7b88889xxxxx")
   .header("cache-control", "no-cache")
@@ -202,7 +202,7 @@ HttpResponse<String> response = Unirest.post("http://[SeuEndPoint]/api/v1/send_m
 
                   <div class="tab-pane" id="js_jquery">
                     <pre>
-                    <code class="html">
+                    <code class="JavaScript">
 var settings = {
   "async": true,
   "crossDomain": true,
@@ -225,7 +225,7 @@ $.ajax(settings).done(function (response) {
 
                   <div class="tab-pane" id="js_xhr">
                     <pre>
-                    <code class="html">
+                    <code class="JavaScript">
 var data = "{\r\n  \"menssage\": \"Teste de envio pela API\",\r\n  \"number\": \"62999999999\"\r\n}";
 
 var xhr = new XMLHttpRequest();
@@ -372,7 +372,7 @@ NSURLSessionDataTask *dataTask = [session dataTaskWithRequest:request
 
                   <div class="tab-pane" id="php_http">
                     <pre>
-                    <code class="php">
+                    <code class="PHP">
 $request = new HttpRequest();
 $request->setUrl('http://[SeuEndPoint]/api/v1/send_message');
 $request->setMethod(HTTP_METH_POST);
@@ -401,7 +401,7 @@ try {
 
                   <div class="tab-pane" id="php_curl">
                     <pre>
-                    <code class="php">
+                    <code class="PHP">
 $curl = curl_init();
 
 curl_setopt_array($curl, array(
@@ -434,9 +434,9 @@ if ($err) {
                   </div>
                   <!-- /.tab-pane -->
 
-                  <div class="tab-pane" id="phyton_http">
+                  <div class="tab-pane" id="python_http">
                     <pre>
-                    <code class="html">
+                    <code class="Python">
 import http.client
 
 conn = http.client.HTTPConnection("[SeuEndPoint]")
@@ -459,9 +459,9 @@ print(data.decode("utf-8"))
                   </div>
                   <!-- /.tab-pane -->
 
-                  <div class="tab-pane" id="phyton_request">
+                  <div class="tab-pane" id="python_request">
                     <pre>
-                    <code class="html">
+                    <code class="Python">
 import requests
 
 url = "http://[SeuEndPoint]/api/v1/send_message"
@@ -482,7 +482,7 @@ print(response.text)
 
                   <div class="tab-pane" id="ruby_net">
                     <pre>
-                    <code class="html">
+                    <code class="Python">
 require 'uri'
 require 'net/http'
 
@@ -504,7 +504,7 @@ puts response.read_body
 
                   <div class="tab-pane" id="shell_wget">
                     <pre>
-                    <code class="html">
+                    <code class="Shell Session">
 wget --quiet \
   --method POST \
   --header 'Authorization: 5201d7c3caf9dc1633ae2766a7b88889xxxxx' \
@@ -519,7 +519,7 @@ wget --quiet \
 
                   <div class="tab-pane" id="shell_httpie">
                     <pre>
-                    <code class="html">
+                    <code class="Shell Session">
 echo '{
   "menssage": "Teste de envio pela API",
   "number": "62999999999"
@@ -534,7 +534,7 @@ echo '{
 
                   <div class="tab-pane" id="shell_curl">
                     <pre>
-                    <code class="html">
+                    <code class="Shell Session">
 curl --request POST \
   --url 'http://[SeuEndPoint]/api/v1/send_message' \
   --header 'Authorization: 5201d7c3caf9dc1633ae2766a7b88889xxxxx' \
@@ -547,7 +547,7 @@ curl --request POST \
 
                   <div class="tab-pane" id="swift">
                     <pre>
-                    <code class="html">
+                    <code class="Swift">
 import Foundation
 
 let headers = [
