@@ -50,7 +50,7 @@ include 'menu.php';
         </div>
 -->
         <figure>
-            <video poster="videos/cover.jpg" controls>
+            <video controls>
                 <source src="dist/videos/API_Apresentacao_ExportWS.mp4" type="video/mp4" />
                 <p>Seu navegador não suporta o elemento video HTML5.<br /> 
                 Assista o video localmente <br /> <a href="PlymouthRoadrunnerCommercial.mp4">fazendo o download</a></p>
