@@ -49,16 +49,27 @@ include 'menu.php';
               <div class="card-header d-flex p-0">
                 <h3 class="card-title p-3">Exemplos de Códigos</h3>
                 <ul class="nav nav-pills ml-auto p-2">
-                  <li class="nav-item"><a class="nav-link active" href="#tab_1" data-toggle="tab">Tab 1</a></li>
-                  <li class="nav-item"><a class="nav-link" href="#tab_2" data-toggle="tab">Tab 2</a></li>
-                  <li class="nav-item"><a class="nav-link" href="#tab_2" data-toggle="tab">Tab 2</a></li>
-                  <li class="nav-item"><a class="nav-link" href="#tab_2" data-toggle="tab">Tab 2</a></li>
-                  <li class="nav-item"><a class="nav-link" href="#tab_2" data-toggle="tab">Tab 2</a></li>
-                  <li class="nav-item"><a class="nav-link" href="#tab_2" data-toggle="tab">Tab 2</a></li>
-                  <li class="nav-item"><a class="nav-link" href="#tab_2" data-toggle="tab">Tab 2</a></li>
-                  <li class="nav-item"><a class="nav-link" href="#tab_2" data-toggle="tab">Tab 2</a></li>
-                  <li class="nav-item"><a class="nav-link" href="#tab_2" data-toggle="tab">Tab 2</a></li>
-                  <li class="nav-item"><a class="nav-link" href="#tab_3" data-toggle="tab">Tab 3</a></li>
+                  <li class="nav-item"><a class="nav-link active" href="#tab_1" data-toggle="tab">C (LibCurl)</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#tab_2" data-toggle="tab">cURL</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#tab_2" data-toggle="tab">C# (RestSharp)</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#tab_2" data-toggle="tab">Go</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#tab_2" data-toggle="tab">Java (Ok Http)</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#tab_2" data-toggle="tab">Java (UniRest)</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#tab_2" data-toggle="tab">JavaScript (Jquery AJAX)</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#tab_2" data-toggle="tab">JavaScript (XHR)</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#tab_2" data-toggle="tab">NodeJS (Native)</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#tab_3" data-toggle="tab">NodeJS (Request)</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#tab_3" data-toggle="tab">NodeJS (UniRest)</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#tab_3" data-toggle="tab">Objective-C (NSURL)</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#tab_3" data-toggle="tab">PHP (HttpRequest)</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#tab_3" data-toggle="tab">PHP (cURL)</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#tab_3" data-toggle="tab">Phyton (Http.client (Phyton 3))</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#tab_3" data-toggle="tab">Phyton (Requests)</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#tab_3" data-toggle="tab">Ruby (NET::HTTP)</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#tab_3" data-toggle="tab">Shell (wget)</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#tab_3" data-toggle="tab">Shell (Httpie)</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#tab_3" data-toggle="tab">Shell (cURL)</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#tab_3" data-toggle="tab">Swift (NSURL)</a></li>
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">
                       Dropdown <span class="caret"></span>
