@@ -50,11 +50,8 @@ include 'menu.php';
             <div class="box-body">
            
             <pre>
-                <code class="html">
-                    <div class="col-md-12">
-                    <div class="box box-solid">
-                        <!-- /.box-header -->
-                        <div class="box-body">
+                <code>
+                      <div class="box-body">
                 </code>
             </pre>
 
