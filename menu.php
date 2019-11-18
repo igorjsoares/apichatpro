@@ -1,6 +1,4 @@
- <?php
-    echo basename($_SERVER['PHP_SELF'],'.php');
- ?>
+ 
  <!-- Main Sidebar Container -->
   <aside class="main-sidebar sidebar-light-warning elevation-4">
     <!-- Brand Logo -->
@@ -8,7 +6,9 @@
       <img src="dist/img/api/logo.png" alt="API ChatPro" class="brand-image">
       <span style="color: white;" class="brand-text font-weight-light">CP</span>
     </a>
-
+<?php
+    echo basename($_SERVER['PHP_SELF'],'.php');
+ ?>
     <!-- Sidebar -->
     <div class="sidebar">
       <!-- Sidebar Menu -->
