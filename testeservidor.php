@@ -51,7 +51,9 @@ include 'menu.php';
            
             <pre>
                 <code class="html">
-                      <div class="box-body">
+                      {
+                          name: String
+                      }
                 </code>
             </pre>
 
