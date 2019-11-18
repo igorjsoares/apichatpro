@@ -51,10 +51,10 @@ include 'menu.php';
            
             <pre>
                 <code class="html">
-                    {
-                    "menssage": "string",
-                    "number": "string"
-                    }
+                    <div class="col-md-12">
+                    <div class="box box-solid">
+                        <!-- /.box-header -->
+                        <div class="box-body">
                 </code>
             </pre>
 
