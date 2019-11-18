@@ -1,7 +1,7 @@
  <!-- Main Sidebar Container -->
   <aside class="main-sidebar sidebar-light-warning elevation-4">
     <!-- Brand Logo -->
-    <a href="https://api.chatpro.com.br" class="brand-link">
+    <a href="https://api.chatpro.com.br" target="_blank" class="brand-link">
       <img src="dist/img/api/logo.png" alt="API ChatPro" class="brand-image">
       <span style="color: white;" class="brand-text font-weight-light">CP</span>
     </a>
