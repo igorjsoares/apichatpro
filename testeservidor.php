@@ -202,7 +202,7 @@ HttpResponse<String> response = Unirest.post("http://[SeuEndPoint]/api/v1/send_m
 
                   <div class="tab-pane" id="js_jquery">
                     <pre>
-                    <code class="JavaScript">
+                    <code class="hljs javascript">
 var settings = {
   "async": true,
   "crossDomain": true,
@@ -225,7 +225,7 @@ $.ajax(settings).done(function (response) {
 
                   <div class="tab-pane" id="js_xhr">
                     <pre>
-                    <code class="JavaScript">
+                    <code class="hljs javascript">
 var data = "{\r\n  \"menssage\": \"Teste de envio pela API\",\r\n  \"number\": \"62999999999\"\r\n}";
 
 var xhr = new XMLHttpRequest();
@@ -336,7 +336,7 @@ req.end(function (res) {
 
                   <div class="tab-pane" id="objc">
                     <pre>
-                    <code class="objectivec">
+                    <code class="hljs objectivec">
 #import <Foundation/Foundation.h>
 
 NSDictionary *headers = @{ @"Authorization": @"5201d7c3caf9dc1633ae2766a7b88889xxxxx",
