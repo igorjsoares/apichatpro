@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="plugins/highlight/styles/darkula.css">
     <script src="plugins/highlight/highlight.pack.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
+    
     <style>
     .color-palette {
       height: 35px;
