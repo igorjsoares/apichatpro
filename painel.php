@@ -88,9 +88,18 @@ include 'menu.php';
               </button>
             </div>
             <div class="modal-body">
+              <!--
               <div class="">
                 <iframe width="852" height="480" class="embed-responsive-item" src="dist/videos/API_AcessoPainel_ExportWS.mp4" frameborder="0" allowfullscreen="" autostart="false"></iframe>
               </div>
+              -->
+              <figure>
+                <video controls>
+                    <source src="dist/videos/API_AcessoPainel_ExportWS.mp4" type="video/mp4" />
+                    <p>Seu navegador não suporta o elemento video HTML5.<br /> 
+                    Assista o video localmente <br /> <a href="PlymouthRoadrunnerCommercial.mp4">fazendo o download</a></p>
+                </video>
+            </figure>
             </div>
           </div>
           <!-- /.modal-content -->

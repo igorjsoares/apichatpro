@@ -55,7 +55,6 @@ include 'menu.php';
                 <p>Seu navegador não suporta o elemento video HTML5.<br /> 
                 Assista o video localmente <br /> <a href="PlymouthRoadrunnerCommercial.mp4">fazendo o download</a></p>
             </video>
-        <figcaption>Video responsivo com HTML5 video</figcaption>
         </figure>
 
         <BR>
