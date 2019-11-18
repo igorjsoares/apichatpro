@@ -81,12 +81,14 @@ include 'menu.php';
                     <li>A diferença nessa requisição é que ela tem um corpo (body) com o Json de parâmetros, para poder escrever o json, clique em <strong>Body</strong></li>
                     <li>Escolha o tipo <strong>Raw</strong></li>
                     <li>Escreva no corpo da requição o json infomado na documentação para esse método</li>
-                    <code>
-                        {<br>
-                        "menssage": "string",<bR>
-                        "number": "string"<br>
-                        }
-                    </code>
+                    <pre>
+                        <code class="html">
+                            {
+                            "menssage": "string",
+                            "number": "string"
+                            }
+                        </code>
+                    </pre>
                     <li>Troque a palavra String em frente a menssage por um texto qualquer (o texto da mensagem), e a palavra String em frente ao number, pelo número com DDD que receberá a mensagem (aconselhável não enviar para o próprio número conectado)</li>
                     <li>Pronto, basta clicar no botão <strong>Send</strong>.</li>
                     <p>O Postman faz a requisição com o método e retorna a resposta com status, ID da mensagem e o timestamp.</p>
