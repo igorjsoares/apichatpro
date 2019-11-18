@@ -42,7 +42,7 @@ include 'menu.php';
     <!-- Main content -->
     <section class="content">
    
-           <div class="col-md-6">
+           <div class="box">
             <div class="nav-tabs-custom">
                 <ul class="nav nav-tabs pull-right">
                 <li class="dropdown">
