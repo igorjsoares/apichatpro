@@ -46,7 +46,7 @@ include 'menu.php';
        <!-- CONTEÚDO PRINCIPAL -->
 
         <div class="">
-            <iframe width="852" height="480" class="embed-responsive-item" src="dist/videos/API_Apresentacao_ExportWS.mp4" frameborder="0" allowfullscreen=""></iframe>
+            <iframe width="852" height="480" class="embed-responsive-item" src="dist/videos/API_Apresentacao_ExportWS.mp4" autostart="false" frameborder="0" allowfullscreen=""></iframe>
         </div>
         <BR>
 

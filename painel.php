@@ -54,7 +54,7 @@ include 'menu.php';
 
                 <p>O painel é onde você tem o controle dos seus créditos, consumo e instâncias. </p>
                 <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal-video">
-                  Assistir vídeo com instruções <i class="nav-icon fas fa-comments"></i>
+                  Assistir vídeo com instruções  <i class="nav-icon fas fa-comments"></i>
                 </button>
                 <br>
                 <p>Na barra superior tem acesso aos créditos da conta, e pode Comprar Créditos ou ver Histórico, tanto de pagamentos, quanto de consumo.</p>
@@ -89,7 +89,7 @@ include 'menu.php';
             </div>
             <div class="modal-body">
               <div class="">
-                <iframe width="852" height="480" class="embed-responsive-item" src="dist/videos/API_AcessoPainel_ExportWS.mp4" frameborder="0" allowfullscreen=""></iframe>
+                <iframe width="852" height="480" class="embed-responsive-item" src="dist/videos/API_AcessoPainel_ExportWS.mp4" frameborder="0" allowfullscreen="" autostart="false"></iframe>
               </div>
             </div>
           </div>
