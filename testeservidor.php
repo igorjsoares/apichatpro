@@ -401,7 +401,7 @@ try {
 
                   <div class="tab-pane" id="php_curl">
                     <pre>
-                    <code class="html">
+                    <code class="php">
 $curl = curl_init();
 
 curl_setopt_array($curl, array(
