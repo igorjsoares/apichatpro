@@ -372,7 +372,7 @@ NSURLSessionDataTask *dataTask = [session dataTaskWithRequest:request
 
                   <div class="tab-pane" id="php_http">
                     <pre>
-                    <code class="html">
+                    <code class="php">
 $request = new HttpRequest();
 $request->setUrl('http://[SeuEndPoint]/api/v1/send_message');
 $request->setMethod(HTTP_METH_POST);
