@@ -57,7 +57,7 @@ include 'menu.php';
                       Dropdown <span class="caret"></span>
                     </a>
                     <div class="dropdown-menu">
-                      <a class="dropdown-item" tabindex="-1" href="#">Action</a>
+                      <a class="dropdown-item" tabindex="-1" href="#tab_2">Action</a>
                       <a class="dropdown-item" tabindex="-1" href="#">Another action</a>
                       <a class="dropdown-item" tabindex="-1" href="#">Something else here</a>
                       <div class="dropdown-divider"></div>
