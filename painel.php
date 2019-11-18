@@ -79,7 +79,7 @@ include 'menu.php';
 
     <!-- /.Modal-video -->
       <div class="modal fade" id="modal-video">
-        <div class="modal-dialog modal-lg">
+        <div class="modal-dialog modal-xl">
           <div class="modal-content">
             <div class="modal-header">
               <h4 class="modal-title">Acesso ao Painel</h4>
@@ -89,7 +89,7 @@ include 'menu.php';
             </div>
             <div class="modal-body">
               <div class="">
-                <iframe class="embed-responsive-item" src="dist/videos/API_AcessoPainel_ExportWS.mp4" frameborder="0" allowfullscreen=""></iframe>
+                <iframe width="852" height="480" class="embed-responsive-item" src="dist/videos/API_AcessoPainel_ExportWS.mp4" frameborder="0" allowfullscreen=""></iframe>
               </div>
             </div>
           </div>
