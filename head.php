@@ -21,7 +21,7 @@
   <!-- Place your kit's code here - Meu KIT fontawesome -->
     <script src="https://kit.fontawesome.com/5b9cd36734.js" crossorigin="anonymous"></script>
     <!-- Blocos de código -->
-    <link rel="stylesheet"
-    href="http://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.16.2/build/styles/default.min.css">
-    <script src="http://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.16.2/build/highlight.min.js"></script>
+    <link rel="stylesheet" href="plugins/highlight/styles/default.css">
+    <script src="plugins/highlight/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
 </head>
