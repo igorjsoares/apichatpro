@@ -48,7 +48,8 @@ include 'menu.php';
           <div class="box box-solid">
             <!-- /.box-header -->
             <div class="box-body">
-           
+
+           <div class="col-md-6">
             <div class="nav-tabs-custom">
             <ul class="nav nav-tabs pull-right">
               <li class="dropdown">
@@ -119,7 +120,7 @@ include 'menu.php';
             </div>
             <!-- /.tab-content -->
           </div>
-
+           </div>
             </div>
             <!-- /.box-body -->
           </div>
