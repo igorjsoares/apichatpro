@@ -50,7 +50,7 @@ include 'menu.php';
             <div class="box-body">
            
             <pre>
-                <code class="html">
+                <code class="plaintext">
                       {
                           name: String
                       }
