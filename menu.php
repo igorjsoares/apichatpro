@@ -1,3 +1,6 @@
+ <?php
+    echo basename($_SERVER['PHP_SELF'],'.php');
+ ?>
  <!-- Main Sidebar Container -->
   <aside class="main-sidebar sidebar-light-warning elevation-4">
     <!-- Brand Logo -->
