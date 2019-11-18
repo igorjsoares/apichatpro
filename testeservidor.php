@@ -39,7 +39,10 @@ include 'menu.php';
     <!-- Main content -->
     <section class="content">
       <div class="container-fluid">
-       
+       <p>Os códigos abaixo foram convertidos através do programa Postman, portanto, servem como direcionamento para o desenvolvimento.</p>
+       <div class="callout callout-info">
+        <p>Não se esqueça que precisa substituir no código tanto o seu EndPoint, quanto o Token, e que o celular deverá estar sincronizado no momento dos testes.</p>
+       </div>
 
 
         <div class="row">
@@ -79,18 +82,11 @@ include 'menu.php';
 CURL *hnd = curl_easy_init();
 
 curl_easy_setopt(hnd, CURLOPT_CUSTOMREQUEST, "POST");
-curl_easy_setopt(hnd, CURLOPT_URL, "[SeuEndPoint]/api/v1/send_message");
+curl_easy_setopt(hnd, CURLOPT_URL, "http://[SeuEndPoint]/api/v1/send_message");
 
 struct curl_slist *headers = NULL;
 headers = curl_slist_append(headers, "cache-control: no-cache");
-headers = curl_slist_append(headers, "Connection: keep-alive");
-headers = curl_slist_append(headers, "Content-Length: 77");
-headers = curl_slist_append(headers, "Accept-Encoding: gzip, deflate");
-headers = curl_slist_append(headers, "Host: [SeuEndPoint]");
-headers = curl_slist_append(headers, "Cache-Control: no-cache");
-headers = curl_slist_append(headers, "Accept: */*");
-headers = curl_slist_append(headers, "Content-Type: text/plain");
-headers = curl_slist_append(headers, "Authorization: [SeuToken]");
+headers = curl_slist_append(headers, "Authorization: 5201d7c3caf9dc1633ae2766a7b88889xxxxx");
 curl_easy_setopt(hnd, CURLOPT_HTTPHEADER, headers);
 
 curl_easy_setopt(hnd, CURLOPT_POSTFIELDS, "{\r\n  \"menssage\": \"Teste de envio pela API\",\r\n  \"number\": \"62999999999\"\r\n}");
@@ -105,7 +101,7 @@ CURLcode ret = curl_easy_perform(hnd);
                     <code class="C++">
 curl -X POST \
   [SeuEndPoint]/api/v1/send_message \
-  -H 'Authorization: 5201d7c3caf9dc1633ae2766a7b888890dce4ec6' \
+  -H 'Authorization: 5201d7c3caf9dc1633ae2766a7b888890dxxxxx' \
   -H 'cache-control: no-cache' \
   -d '{
   "menssage": "Teste de envio pela API",
