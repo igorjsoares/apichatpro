@@ -47,8 +47,7 @@ include 'menu.php';
             <!-- Custom Tabs -->
             <div class="card">
               <div class="card-header d-flex p-0">
-                <h3 class="card-title p-3">Exemplos de Códigos</h3>
-                <ul class="nav nav-pills ml-auto p-2">
+                <ul class="nav nav-pills ml-auto">
                   <li class="nav-item"><a class="nav-link active" href="#tab_1" data-toggle="tab">C (LibCurl)</a></li>
                   <li class="nav-item"><a class="nav-link" href="#tab_2" data-toggle="tab">cURL</a></li>
                   <li class="nav-item"><a class="nav-link" href="#tab_2" data-toggle="tab">C# (RestSharp)</a></li>
@@ -70,18 +69,6 @@ include 'menu.php';
                   <li class="nav-item"><a class="nav-link" href="#tab_3" data-toggle="tab">Shell (Httpie)</a></li>
                   <li class="nav-item"><a class="nav-link" href="#tab_3" data-toggle="tab">Shell (cURL)</a></li>
                   <li class="nav-item"><a class="nav-link" href="#tab_3" data-toggle="tab">Swift (NSURL)</a></li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">
-                      Dropdown <span class="caret"></span>
-                    </a>
-                    <div class="dropdown-menu">
-                      <a class="dropdown-item" tabindex="-1" href="#tab_1">Action</a>
-                      <a class="dropdown-item" tabindex="-1" href="#tab_2">Another action</a>
-                      <a class="dropdown-item" tabindex="-1" href="#tab_3">Something else here</a>
-                      <div class="dropdown-divider"></div>
-                      <a class="dropdown-item" tabindex="-1" href="#">Separated link</a>
-                    </div>
-                  </li>
                 </ul>
               </div><!-- /.card-header -->
               <div class="card-body">
