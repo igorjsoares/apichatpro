@@ -102,11 +102,13 @@ include 'menu.php';
                                     Retorna se o número possui Whatsapp e obtem o nome e foto do WhatsApp desse número.
                                 </td>
                                 <td>
-                                    <code>
-                                        {<BR>
-                                        "number": "string"<BR>
-                                        }
+                                   <pre>
+                                    <code class="json">
+{
+"number": "string"
+}
                                     </code>
+                                    </pre>
                                 </td>
                             </tr>
                             <tr>
@@ -116,12 +118,14 @@ include 'menu.php';
                                     Envia para o número infomado uma mensagem de texto. Essa mensagem poderá conter texto formatado com os padrões do Whatsapp (como negrito entre *Negrito*), e emojis, copiando e colando emojis no corpo da mensagem.
                                 </td>
                                 <td>
-                                    <code>
-                                        {<br>
-                                        "menssage": "string",<br>
-                                        "number": "string"<br>
-                                        }
+                                    <pre>
+                                    <code class="json">
+{
+"menssage": "string",
+"number": "string"
+}
                                     </code>
+                                    </pre>
                                 </td>
                             </tr>
                             <tr>
@@ -131,13 +135,15 @@ include 'menu.php';
                                     Com esse método é possível enviar qualquer tipo de arquivo em anexo, como imagem, áudio, vídeo, documentos .doc .xls .pdf, basta colocar o endereço do arquivo no campo URL da requisição, juntamente com o arquivo poderá enviar um texto na mesma mensagem no campo <strong>caption</strong> e será contato como 1 crédito apenas.    
                                 </td>
                                 <td>
-                                    <code>
-                                        {<br>
-                                        "caption": "string",<br>
-                                        "number": "string",<br>
-                                        "url": "string"<br>
-                                        }
+                                    <pre>
+                                    <code class="json">
+{
+"caption": "string",
+"number": "string",
+"url": "string"
+}
                                     </code>
+                                    </pre>
                                 </td>
                             </tr>
                             <tr>
@@ -168,11 +174,13 @@ include 'menu.php';
                                     Este método é capaz de setar o webhook, que é o arquivo que receberá os eventos do WhatsApp, como por exemplo as mensagens recebidas.
                                 </td>
                                 <td>
-                                    <code>
-                                        {<br>
-                                        "webhook": "string"<br>
-                                        }
+                                    <pre>
+                                    <code class="json">
+{
+"webhook": "string"
+}
                                     </code>
+                                    </pre>
                                 </td>
                             </tr>
                         </tbody>
