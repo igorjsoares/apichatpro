@@ -178,7 +178,7 @@ include 'menu.php';
                     <br>
                     <div class="callout callout-danger">
                         <p>Para mais detalhes de cada método, por exemplo os possíveis retornos, acesse sua Documentação interativa dentro do seu Painel. </p>
-                        <button href="docinterativa.php"  onCLick="docinterativa.php" class="btn btn-info">Informações sobre Documentação interativa</button>
+                        <button href="docinterativa.php"  onCLick="window.open('https://api.chatpro.com.br/painel','_self');" class="btn btn-info">Informações sobre Documentação interativa</button>
                     </div>
                     </div>
                     <!-- /.box-body -->
