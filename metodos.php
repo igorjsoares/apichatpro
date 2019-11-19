@@ -148,15 +148,17 @@ include 'menu.php';
                                     O campo <strong>address</strong> poderá escrever o endereço que aparecerá na mensagem, e o campo <strong>nome</strong> será onde colocará um nome do local (exemplo.: Restaurante Comida Boa)
                                 </td>
                                 <td>
-                                    <code>
-                                        {<br>
-                                        "address": "string",<br>
-                                        "lat": 0,<br>
-                                        "lng": 0,<br>
-                                        "name": "string",<br>
-                                        "number": "string"<br>
-                                        }
+                                <pre>
+                                    <code class="json">
+{
+"address": "string",
+"lat": 0,
+"lng": 0,
+"name": "string",
+"number": "string"
+}
                                     </code>
+                                    </pre>
                                 </td>
                             </tr>
                             <tr>
@@ -178,7 +180,7 @@ include 'menu.php';
                     <br>
                     <div class="callout callout-danger">
                         <p>Para mais detalhes de cada método, por exemplo os possíveis retornos, acesse sua Documentação interativa dentro do seu Painel. </p>
-                        <button href="docinterativa.php"  onCLick="window.open('docinteraciva.php','_self');" class="btn btn-info">Informações sobre Documentação interativa</button>
+                        <button href="docinterativa.php"  onCLick="window.open('docinterativa.php','_self');" class="btn btn-info">Informações sobre Documentação interativa</button>
                     </div>
                     </div>
                     <!-- /.box-body -->
