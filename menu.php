@@ -72,7 +72,7 @@
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
-          <li class="nav-item has-treeview menu-open">
+          <li style="width: -webkit-fill-available;" class="nav-item has-treeview menu-open">
             <a href="#" class="nav-link <?=$Aapi;?>">
               <i class="nav-icon fas fa-comments"></i>
               <p>
@@ -102,7 +102,7 @@
             </ul>
           </li>
           
-          <li class="nav-item has-treeview menu-open">
+          <li style="width: -webkit-fill-available;" class="nav-item has-treeview menu-open">
             <a href="#" class="nav-link <?=$Conceitos;?>">
               <i class="nav-icon fa fa-info-circle"></i>
               <p>
@@ -132,7 +132,7 @@
             </ul>
           </li>
 
-          <li class="nav-item has-treeview menu-open">
+          <li style="width: -webkit-fill-available;" class="nav-item has-treeview menu-open">
             <a href="#" class="nav-link <?=$Testes;?>">
               <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>
